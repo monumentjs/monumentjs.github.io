@@ -3,11 +3,13 @@ pre {
     margin: 0;
 }
 
-.page-block {
-    margin: 50px 0;
-}
-
 .hljs {
     background: none;
     padding: 0;
 }
+
+.card-columns {
+    column-count: auto;
+    column-width: 250px;
+}
+

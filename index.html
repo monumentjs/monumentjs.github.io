@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width">
     <title>monument.js - TypeScript standard library</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -22,49 +23,51 @@
     <link rel="stylesheet"
           href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
     <script>hljs.initHighlightingOnLoad();</script>
 
     <link rel="stylesheet" href="./styles/styles.css">
 
 </head>
 <body>
-<header>
+<header class="border-bottom border-secondary">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                          Home <span class="sr-only">(current)</span>
-                      </a>
+                    <li class="nav-item mr-2 active">
+                        <span class="nav-link pl-0">
+                            Home <span class="sr-only">(current)</span>
+                        </span>
                     </li>
-                    <li class="nav-item">
+                    <!--<li class="nav-item mr-2">
                         <a class="nav-link" href="#">
-                          Documentation
-                      </a>
+                            Documentation
+                        </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mr-2">
                         <a class="nav-link" href="#">Tutorials</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mr-2">
                         <a class="nav-link" href="#">Examples</a>
-                    </li>
+                    </li>-->
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/monumentjs">
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="https://github.com/monumentjs" rel="nofollow" target="_blank">
                             <span class="fab fa-github"></span> GitHub
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            Contacts
+                    <li class="nav-item ml-2">
+                        <a class="nav-link pr-0" href="team.html">
+                            Team
                         </a>
                     </li>
                 </ul>
@@ -73,24 +76,310 @@
     </nav>
 </header>
 <main>
-    <section class="jumbotron text-center">
+    <section class="alert alert-warning rounded-0 m-0" role="alert">
         <div class="container">
-            <h1 class="display-5 font-weight-bold">TypeScript Standard Library</h1>
-            <p class="lead">When architecture matters</p>
+            Project is in <strong>alpha stage</strong> which means that it is not yet ready for usage in production.
+        </div>
+    </section>
 
-            <div class="btns">
-                <a href="./tutorials/get-started.html" class="btn btn-lg btn-primary">
+    <section class="jumbotron text-center bg-dark text-light m-0 rounded-0">
+        <div class="container">
+            <h1 class="display-4 font-weight-bold">TypeScript Standard Library</h1>
+            <h2 class="lead">When architecture matters</h2>
+
+            <!--<div class="mt-4">
+                <a href="./tutorials/get-started.html" class="btn btn-lg btn-primary mr-2">
                     Get Started
                 </a>
-                <a href="./tutorials/tutorial.html" class="btn btn btn-link">
+                <a href="./tutorials/tutorial.html" class="btn bg-light text-dark">
                     Read Tutorial
                 </a>
+            </div>-->
+        </div>
+    </section>
+
+    <section class="py-5 border-bottom">
+        <div class="container">
+            <h2 class="text-center mb-5 font-weight-bold text-uppercase">Explore Modules</h2>
+            <div class="card-columns">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">application</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/application
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">assert</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/assert
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">async</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/async
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">collection</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/collection
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">context</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/context
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">core</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/core
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">events</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/events
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">logger</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/logger
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">node</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/node
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">object-model</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/object-model
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">observable</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/observable
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">pub-sub</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/pub-sub
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">reflection</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/reflection
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">stereotype</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/stereotype
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">stream</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/stream
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">test-drive</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/test-drive
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">text</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/text
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <div class="text-uppercase font-weight-bold">time</div>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="text-muted text-truncate">
+                                <small class="font-weight-bold">
+                                    <i class="fas fa-download"></i>
+                                    npm i @monument/time
+                                </small>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="page-block">
+    <section class="py-5 border-bottom">
         <div class="container">
+            <h2 class="text-center mb-5 font-weight-bold text-uppercase">Examples</h2>
+
             <div class="row">
                 <div class="col-lg-4 col-12">
                     <h4>Hello World Application</h4>
@@ -99,9 +388,9 @@
                     </p>
                 </div>
                 <div class="col-lg-8 col-12">
-                  <div class="card">
-  <div class="card-header">HelloWorldApplication.ts</div>
-                    <div class="card-body">
+                    <div class="card">
+                        <div class="card-header">HelloWorldApplication.ts</div>
+                        <div class="card-body">
 <pre><code class="ts">
 @Boot
 export class HelloWorldApplication {
@@ -111,13 +400,14 @@ export class HelloWorldApplication {
     }
 }
 </code></pre>
-                      </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="page-block">
+    <section class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-12">
@@ -127,9 +417,9 @@ export class HelloWorldApplication {
                     </p>
                 </div>
                 <div class="col-lg-8 col-12">
-                    <div class="card">
-                      <div class="card-header">RealWorldApplication.ts</div>
-                    <div class="card-body">
+                    <div class="card mb-4">
+                        <div class="card-header">RealWorldApplication.ts</div>
+                        <div class="card-body">
 <pre><code class="ts">
 @Boot
 @Application({
@@ -151,12 +441,12 @@ export class RealWorldApplication {
     }
 }
 </code></pre>
-                      </div>
-                </div>
+                        </div>
+                    </div>
 
-                  <div class="card">
-                    <div class="card-header">modules/configuration/ConfigurationModule.ts</div>
-                    <div class="card-body">
+                    <div class="card mb-4">
+                        <div class="card-header">modules/configuration/ConfigurationModule.ts</div>
+                        <div class="card-body">
 <pre><code class="ts">
 @Module({
     components: [
@@ -167,13 +457,13 @@ export class RealWorldApplication {
 export class ConfigurationModule {
 }
 </code></pre>
-                      </div>
-                </div>
+                        </div>
+                    </div>
 
 
-                  <div class="card">
-                    <div class="card-header">modules/configuration/diagnostics/LoggingConfiguration.ts</div>
-                    <div class="card-body">
+                    <div class="card mb-4">
+                        <div class="card-header">modules/configuration/diagnostics/LoggingConfiguration.ts</div>
+                        <div class="card-body">
 <pre><code class="ts">
 @Configuration
 export class LoggingConfiguration {
@@ -186,12 +476,13 @@ export class LoggingConfiguration {
     }
 }
 </code></pre>
-                </div>
-
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </main>
+
 </body>
 </html>
