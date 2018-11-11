@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <meta name="google-site-verification" content="a11P8OBuwzeZSnl4OiFtJHt5QoxtnQmJqMxiDrgJA28" />
+    <meta name="google-site-verification" content="a11P8OBuwzeZSnl4OiFtJHt5QoxtnQmJqMxiDrgJA28"/>
     <title>monument.js - TypeScript standard library</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
@@ -47,28 +47,21 @@
                             Home <span class="sr-only">(current)</span>
                         </span>
                     </li>
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="documents.html">
+                    <li class="nav-item dropdown mr-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="docsDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Documentation
                         </a>
+                        <div class="dropdown-menu" aria-labelledby="docsDropdown">
+                            <a class="dropdown-item" href="/docs/index.html">API Reference</a>
+                        </div>
                     </li>
-                    <!-- <li class="nav-item mr-2">
-                        <a class="nav-link" href="#">Tutorials</a>
-                    </li>
-                    <li class="nav-item mr-2">
-                        <a class="nav-link" href="#">Examples</a>
-                    </li>-->
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item ml-2">
                         <a class="nav-link" href="https://github.com/monumentjs" rel="nofollow" target="_blank">
                             <span class="fab fa-github"></span> GitHub
-                        </a>
-                    </li>
-                    <li class="nav-item ml-2">
-                        <a class="nav-link pr-0" href="team.html">
-                            Team
                         </a>
                     </li>
                 </ul>
@@ -99,385 +92,138 @@
         </div>
     </section>
 
-    <section class="py-5 border-bottom">
-        <div class="container">
-            <h2 class="text-center mb-5 font-weight-bold text-uppercase">Explore Modules</h2>
-            <div class="card-columns">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">application</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/application
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">assert</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/assert
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">async</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/async
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">collection</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/collection
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">context</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/context
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">core</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/core
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">events</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/events
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">logger</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/logger
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">node</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/node
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">object-model</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/object-model
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">observable</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/observable
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">pub-sub</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/pub-sub
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">reflection</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/reflection
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">stereotype</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/stereotype
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">stream</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/stream
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">test-drive</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/test-drive
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">text</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/text
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <div class="text-uppercase font-weight-bold">time</div>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="text-muted text-truncate">
-                                <small class="font-weight-bold">
-                                    <i class="fas fa-download"></i>
-                                    npm i @monument/time
-                                </small>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="py-5 border-bottom">
         <div class="container">
-            <h2 class="text-center mb-5 font-weight-bold text-uppercase">Examples</h2>
+            <h2 class="text-center mb-5 font-weight-bold text-uppercase">
+                Explore Packages
+            </h2>
 
             <div class="row">
-                <div class="col-lg-4 col-12">
-                    <h4>Hello World Application</h4>
-                    <p>
-                        Each application runs with <code>@Boot</code> decorator.
-                    </p>
-                </div>
-                <div class="col-lg-8 col-12">
-                    <div class="card">
-                        <div class="card-header">HelloWorldApplication.ts</div>
-                        <div class="card-body">
-<pre><code class="ts">
-@Boot
-export class HelloWorldApplication {
-    @Init
-    public init() {
-        console.log('Hello World');
-    }
-}
-</code></pre>
+                <div class="col-md-3">
+                    <div class="sticky-top py-2">
+                        <div class="list-group" role="tablist">
+                            <a class="list-group-item list-group-item-action active"
+                               id="v-pills-pkg-core-tab"
+                               data-toggle="pill"
+                               href="#v-pills-pkg-core"
+                               role="tab"
+                               aria-controls="v-pills-pkg-core"
+                               aria-selected="true">
+                                @monument/core
+                            </a>
+                            <a class="list-group-item list-group-item-action"
+                               id="v-pills-pkg-uri-tab"
+                               data-toggle="pill"
+                               href="#v-pills-pkg-uri"
+                               role="tab"
+                               aria-controls="v-pills-pkg-uri"
+                               aria-selected="false">
+                                @monument/uri
+                            </a>
+                            <a class="list-group-item list-group-item-action"
+                               id="v-pills-pkg-version-tab"
+                               data-toggle="pill"
+                               href="#v-pills-pkg-version"
+                               role="tab"
+                               aria-controls="v-pills-pkg-version"
+                               aria-selected="false">
+                                @monument/version
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+                <div class="col-md-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <section class="tab-pane fade show active" id="v-pills-pkg-core" role="tabpanel"
+                                 aria-labelledby="v-pills-pkg-core-tab">
+                            <h2>@monument/core</h2>
 
-    <section class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-12">
-                    <h4>Modular Architecture</h4>
-                    <p>
-                        Each application runs with <code>@Boot</code> decorator.
-                    </p>
-                </div>
-                <div class="col-lg-8 col-12">
-                    <div class="card mb-4">
-                        <div class="card-header">RealWorldApplication.ts</div>
-                        <div class="card-body">
-<pre><code class="ts">
-@Boot
-@Application({
-    modules: [
-        LoggerModule,
-        ConfigurationModule
-    ]
-})
-export class RealWorldApplication {
-    private readonly _logger: Logger;
+                            <h5>Install</h5>
 
-    public constructor(loggerManager: LoggerManager) {
-        this._logger = loggerManager.getLogger(this.constructor.name);
-    }
+                            <pre class="mb-4"><code class="bash">npm install @monument/core</code></pre>
 
-    @Init
-    public async init() {
-        await this._logger.info('Hello Real World');
-    }
-}
-</code></pre>
-                        </div>
-                    </div>
+                            <h5>Collections</h5>
 
-                    <div class="card mb-4">
-                        <div class="card-header">modules/configuration/ConfigurationModule.ts</div>
-                        <div class="card-body">
-<pre><code class="ts">
-@Module({
-    components: [
-        LoggerModule,
-        LoggingConfiguration
-    ]
-})
-export class ConfigurationModule {
-}
-</code></pre>
-                        </div>
-                    </div>
+                            <p>
+                                This packages provides useful classes and interfaces to work with collections
+                                such as <code>List</code>, <code>Set</code>, <code>Queue</code>, <code>Stack</code>,
+                                <code>Map</code> and more specialized.
+                            </p>
+                            <p>
+                                For each type of collection there are <strong>read-only</strong> interface
+                                (which allows only those operation which don't mutate collections).
+                            </p>
+                            <p>
+                                Each type of collection also have <strong>mutable</strong> and
+                                <strong>immutable</strong> implementations.
+                            </p>
+                            <p>
+                                Mutable collections are also <strong>observable</strong> which means you can subscribe
+                                on updates.
+                            </p>
 
+                            <h5>Events</h5>
 
-                    <div class="card mb-4">
-                        <div class="card-header">modules/configuration/diagnostics/LoggingConfiguration.ts</div>
-                        <div class="card-body">
-<pre><code class="ts">
-@Configuration
-export class LoggingConfiguration {
+                            <p>
+                                This package provides useful classes and interfaces for defining typed events
+                                as object properties.
+                            </p>
+                            <p>
+                                Implementation follows "event as property" approach.
+                            </p>
 
-    @Unit(LoggerConfiguration)
-    public loggerConfiguration(): LoggerConfiguration {
-        return new LoggerConfiguration([
-            new ConsoleAppender(ConsoleMessageLayout.SIMPLE)
-        ]);
-    }
-}
-</code></pre>
-                        </div>
+                            <h5>Exceptions</h5>
+
+                            <p>
+                                This package provides base exceptions.
+                            </p>
+
+                            <h5>Comparison</h5>
+
+                            <p>
+                                This package provides abstraction of equality comparison and sorting.
+                            </p>
+
+                            <h5>String manipulation</h5>
+
+                            <p>
+                                This package provides additional classes to work with text like string builder,
+                                parsers, template string and others.
+                            </p>
+                        </section>
+
+                        <section class="tab-pane fade" id="v-pills-pkg-uri" role="tabpanel"
+                                 aria-labelledby="v-pills-pkg-uri-tab">
+                            <h2 class="mb-2">@monument/uri</h2>
+
+                            <h5>Install</h5>
+
+                            <pre class="mb-4"><code class="bash">npm install @monument/uri</code></pre>
+
+                            <h5>URI manipulation</h5>
+
+                            <p>
+                                This package provides immutable URI implementation plus utils to create, test and
+                                serialize URIs.
+                            </p>
+                        </section>
+
+                        <section class="tab-pane fade" id="v-pills-pkg-version" role="tabpanel"
+                                 aria-labelledby="v-pills-pkg-version-tab">
+                            <h2 class="mb-2">@monument/version</h2>
+
+                            <h5>Install</h5>
+
+                            <pre class="mb-4"><code class="bash">npm install @monument/version</code></pre>
+
+                            <h5>Version manipulation</h5>
+
+                            <p>
+                                This package provides immutable version implementation plus utils to create, test and
+                                serialize versions.
+                            </p>
+                        </section>
                     </div>
                 </div>
             </div>
