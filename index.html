@@ -29,6 +29,15 @@
 
     <link rel="stylesheet" href="./styles/styles.css">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129068725-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129068725-1');
+    </script>
 </head>
 <body>
 <header class="border-bottom border-secondary">
@@ -150,10 +159,54 @@
                                 such as <code>List</code>, <code>Set</code>, <code>Queue</code>, <code>Stack</code>,
                                 <code>Map</code> and more specialized.
                             </p>
+
+                            <h6>List&lt;T&gt;, LinkedList&lt;T&gt;</h6>
+
+                            <pre><code class="ts">
+import {List, LinkedList} from '@monument/core';
+
+const fruits: List&lt;string&gt; = new LinkedList();
+
+fruits.add('lime'); // true
+fruits.addAll(['apple', 'orange', 'banana']); // true
+fruits.remove('apple'); // true
+fruits.removeAll(['lime', 'orange']); // true
+fruits.clear(); // true
+                            </code></pre>
+
+                            <h6>List&lt;T&gt;, ArrayList&lt;T&gt;</h6>
+
+                            <pre><code class="ts">
+import {List, ArrayList} from '@monument/core';
+
+const vegetables: List&lt;string&gt; = new ArrayList(['potato', 'tomato', 'cucumber']);
+
+vegetables.getAt(0); // "potato"
+vegetables.setAt(0, 'carrot'); // "potato"
+vegetables.indexOf('cucumber'); // 2
+vegetables.contains('cucumber'); // true
+vegetables.containsAll(['cucumber', 'tomato']); // true
+vegetables.insert(0, 'potato'); // true
+vegetables.insertAll(0, ['beet']); // true
+vegetables.removeAt(0); // "beet"
+                            </code></pre>
+
                             <p>
                                 For each type of collection there are <strong>read-only</strong> interface
                                 (which allows only those operation which don't mutate collections).
                             </p>
+
+                            <pre><code class="ts">
+import {ReadOnlyList, ArrayList} from '@monument/core';
+
+const vegetables: ReadOnlyList&lt;string&gt; = new ArrayList(['potato', 'tomato', 'cucumber']);
+
+vegetables.getAt(0); // "potato"
+vegetables.indexOf('cucumber'); // 2
+vegetables.contains('cucumber'); // true
+vegetables.containsAll(['cucumber', 'tomato']); // true
+                            </code></pre>
+
                             <p>
                                 Each type of collection also have <strong>mutable</strong> and
                                 <strong>immutable</strong> implementations.
