@@ -22,7 +22,7 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="../../styles/styles.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129068725-1"></script>
@@ -51,9 +51,9 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item mr-2 active">
-                        <span class="nav-link pl-0">
+                        <a class="nav-link pl-0" href="/">
                             Home <span class="sr-only">(current)</span>
-                        </span>
+                        </a>
                     </li>
                 </ul>
 
@@ -69,67 +69,39 @@
     </nav>
 </header>
 <main>
-    <section class="alert alert-warning rounded-0 m-0" role="alert">
-        <div class="container">
-            Project is in <strong>alpha stage</strong> which means that it is not yet ready for usage in production.
-        </div>
-    </section>
-
-    <section class="jumbotron text-center bg-dark text-light m-0 rounded-0">
-        <div class="container">
-            <h1 class="display-4 font-weight-bold mb-2">TypeScript Standard Library</h1>
-            <h2 class="lead mt-1">When architecture matters</h2>
-
-            <div class="mt-5">
-                <a href="./api/index.html" class="btn btn-lg btn-primary mr-2">
-                    API Reference
-                </a>
-            </div>
-        </div>
-    </section>
-
-
     <section class="py-5">
         <div class="container">
-            <h2 class="text-center mb-5 font-weight-bold text-uppercase">
-                Explore Packages
-            </h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="py-1 sticky-top">
+                        <pre class="mb-4"><code class="bash">npm install @monument/version</code></pre>
 
-            <table class="table table-bordered">
-                <thead>
-                <tr>
-                    <th>Package</th>
-                    <th>Description</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>
-                        <a href="./packages/monument/core.html">@monument/core</a>
-                    </td>
-                    <td>
-                        Provides core functionality: collections, events, exceptions, observable abstraction,
-                        date and time
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="./packages/monument/uri.html">@monument/uri</a>
-                    </td>
-                    <td>
-                        Provides URI manipulation functionality: building, parsing, serializing and validating
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="./packages/monument/version.html">@monument/version</a>
-                    </td>
-                    <td>
-                        Provides version manipulation functionality: building, parsing, serializing and validating
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+                        <div class="list-group">
+                            <a href="./core.html" class="list-group-item list-group-item-action">
+                                @monument/core
+                            </a>
+                            <a href="./uri.html" class="list-group-item list-group-item-action">
+                                @monument/uri
+                            </a>
+                            <span class="list-group-item list-group-item-action active">
+                                @monument/version
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h1 class="font-weight-bold text-uppercase">
+                        @monument/version
+                    </h1>
+
+                    <h2>Version manipulation</h2>
+
+                    <p>
+                        This package provides immutable version implementation plus utils to create, test and
+                        serialize versions.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 </main>
