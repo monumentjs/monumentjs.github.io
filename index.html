@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width">
     <meta name="google-site-verification" content="a11P8OBuwzeZSnl4OiFtJHt5QoxtnQmJqMxiDrgJA28"/>
     <title>TypeScript Standard Library</title>
-    <meta name="description" content="TypeScript Standard Library provides common functionality for your projects such as collections, events, date/time utils, URI parser etc.">
+    <meta name="description"
+          content="TypeScript Standard Library provides common functionality for your projects such as collections, events, date/time utils, URI parser etc.">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
           integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -52,7 +53,7 @@
                 <ul class="nav navbar-nav mr-auto">
                     <li class="nav-item mr-2 active">
                         <span class="nav-link pl-0">
-                            Home <span class="sr-only">(current)</span>
+                            Home
                         </span>
                     </li>
                 </ul>
@@ -81,55 +82,67 @@
             <h2 class="lead mt-1">When architecture matters</h2>
 
             <div class="mt-5">
-                <a href="./api/index.html" class="btn btn-lg btn-primary mr-2">
+                <a href="/api/index.html" class="btn btn-lg btn-primary mr-2">
                     API Reference
                 </a>
             </div>
         </div>
     </section>
 
-
-    <section class="py-5">
+    <section class="text-center py-5">
         <div class="container">
-            <h2 class="text-center mb-5 font-weight-bold text-uppercase">
+            <h2 class="font-weight-bold text-uppercase">
                 Explore Packages
             </h2>
+            <p>
+                TypeScript Standard Library organized as set of NPM packages.
+                You can use only necessary packages to build your project.
+                Project guarantees minimal amount of third-party dependencies and absence of "dependency hell".
+                Development follows semantic versioning which guarantees safe development and predictable upgrades.
+            </p>
+        </div>
+    </section>
 
-            <table class="table table-bordered">
-                <thead>
-                <tr>
-                    <th>Package</th>
-                    <th>Description</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>
-                        <a href="./packages/monument/core.html">@monument/core</a>
-                    </td>
-                    <td>
-                        Provides core functionality: collections, events, exceptions, observable abstraction,
-                        date and time
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="./packages/monument/uri.html">@monument/uri</a>
-                    </td>
-                    <td>
-                        Provides URI manipulation functionality: building, parsing, serializing and validating
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="./packages/monument/version.html">@monument/version</a>
-                    </td>
-                    <td>
-                        Provides version manipulation functionality: building, parsing, serializing and validating
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+    <section class="text-center py-5 bg-light">
+        <div class="container">
+            <h2 class="font-weight-bold text-uppercase">
+                @monument/core
+            </h2>
+            <p>
+                Provides core functionality: collections, events, exceptions, observable abstraction,
+                date and time
+            </p>
+            <p>
+                <a href="/packages/monument/core.html" class="btn btn-primary">Read More</a>
+            </p>
+        </div>
+    </section>
+
+    <section class="text-center py-5">
+        <div class="container">
+            <h2 class="font-weight-bold text-uppercase">
+                @monument/uri
+            </h2>
+            <p>
+                Provides URI manipulation functionality: building, parsing, serializing and validating
+            </p>
+            <p>
+                <a href="/packages/monument/uri.html" class="btn btn-primary">Read More</a>
+            </p>
+        </div>
+    </section>
+
+    <section class="text-center py-5 bg-light">
+        <div class="container">
+            <h2 class="font-weight-bold text-uppercase">
+                @monument/version
+            </h2>
+            <p>
+                Provides version manipulation functionality: building, parsing, serializing and validating
+            </p>
+            <p>
+                <a href="/packages/monument/version.html" class="btn btn-primary">Read More</a>
+            </p>
         </div>
     </section>
 </main>
