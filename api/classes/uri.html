@@ -69,15 +69,14 @@
 					<div class="lead">
 						<p>Represents URI (Unified Resource Identifier).</p>
 					</div>
+					<pre><code class="language-ts"><span class="hljs-comment">// Parse URI string</span>
+
+<span class="hljs-keyword">const</span> uri = <span class="hljs-keyword">new</span> Uri(<span class="hljs-string">'https://my-blog.com/post/12312#cut'</span>);
+uri.schema   <span class="hljs-comment">// 'https'</span>
+uri.host     <span class="hljs-comment">// 'my-blog.com'</span>
+uri.path     <span class="hljs-comment">// '/post/12312'</span>
+uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 					<dl class="tsd-comment-tags">
-						<dt>example</dt>
-						<dd><p>// Parse URI string</p>
-							<p>const uri = new Uri(&#39;<a href="https://my-blog.com/post/12312#cut&#39;)">https://my-blog.com/post/12312#cut&#39;)</a>;
-								uri.schema   // &#39;https&#39;
-								uri.host     // &#39;my-blog.com&#39;
-								uri.path     // &#39;/post/12312&#39;
-							uri.fragment // &#39;cut&#39;</p>
-						</dd>
 						<dt>since</dt>
 						<dd><p>0.0.1</p>
 						</dd>
@@ -178,7 +177,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L86">uri/src/Uri.ts:86</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L87">uri/src/Uri.ts:87</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -196,7 +195,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L92">uri/src/Uri.ts:92</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L93">uri/src/Uri.ts:93</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -220,7 +219,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L98">uri/src/Uri.ts:98</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L99">uri/src/Uri.ts:99</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -256,7 +255,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L56">uri/src/Uri.ts:56</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L57">uri/src/Uri.ts:57</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -276,7 +275,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L60">uri/src/Uri.ts:60</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L61">uri/src/Uri.ts:61</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -296,7 +295,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L64">uri/src/Uri.ts:64</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L65">uri/src/Uri.ts:65</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -316,7 +315,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L68">uri/src/Uri.ts:68</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L69">uri/src/Uri.ts:69</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -333,7 +332,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L72">uri/src/Uri.ts:72</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L73">uri/src/Uri.ts:73</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span>
@@ -353,7 +352,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L76">uri/src/Uri.ts:76</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L77">uri/src/Uri.ts:77</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlyqueryparameters.html" class="tsd-signature-type">ReadOnlyQueryParameters</a></h4>
@@ -370,7 +369,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L80">uri/src/Uri.ts:80</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L81">uri/src/Uri.ts:81</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -390,7 +389,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L84">uri/src/Uri.ts:84</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L85">uri/src/Uri.ts:85</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -415,7 +414,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L157">uri/src/Uri.ts:157</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L158">uri/src/Uri.ts:158</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -434,7 +433,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L162">uri/src/Uri.ts:162</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L163">uri/src/Uri.ts:163</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -453,7 +452,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L168">uri/src/Uri.ts:168</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L169">uri/src/Uri.ts:169</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -486,7 +485,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L126">uri/src/Uri.ts:126</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L127">uri/src/Uri.ts:127</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -503,7 +502,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L128">uri/src/Uri.ts:128</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L129">uri/src/Uri.ts:129</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -530,7 +529,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L142">uri/src/Uri.ts:142</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L143">uri/src/Uri.ts:143</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -544,7 +543,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L144">uri/src/Uri.ts:144</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L145">uri/src/Uri.ts:145</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -571,7 +570,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/tojson.html">ToJSON</a>.<a href="../interfaces/tojson.html#tojson-1">toJSON</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L193">uri/src/Uri.ts:193</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L194">uri/src/Uri.ts:194</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -589,7 +588,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/tostring.html">ToString</a>.<a href="../interfaces/tostring.html#tostring-1">toString</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L197">uri/src/Uri.ts:197</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L198">uri/src/Uri.ts:198</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -606,7 +605,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L201">uri/src/Uri.ts:201</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L202">uri/src/Uri.ts:202</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -629,7 +628,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L209">uri/src/Uri.ts:209</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L210">uri/src/Uri.ts:210</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -652,7 +651,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L217">uri/src/Uri.ts:217</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L218">uri/src/Uri.ts:218</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -678,7 +677,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L225">uri/src/Uri.ts:225</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L226">uri/src/Uri.ts:226</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -701,7 +700,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L233">uri/src/Uri.ts:233</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L234">uri/src/Uri.ts:234</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -724,7 +723,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L241">uri/src/Uri.ts:241</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L242">uri/src/Uri.ts:242</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -747,7 +746,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L249">uri/src/Uri.ts:249</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L250">uri/src/Uri.ts:250</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -770,7 +769,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L257">uri/src/Uri.ts:257</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L258">uri/src/Uri.ts:258</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -793,7 +792,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L265">uri/src/Uri.ts:265</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L266">uri/src/Uri.ts:266</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -816,7 +815,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L273">uri/src/Uri.ts:273</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L274">uri/src/Uri.ts:274</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -833,7 +832,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L281">uri/src/Uri.ts:281</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L282">uri/src/Uri.ts:282</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -851,7 +850,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L289">uri/src/Uri.ts:289</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L290">uri/src/Uri.ts:290</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -865,7 +864,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L291">uri/src/Uri.ts:291</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L292">uri/src/Uri.ts:292</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -891,7 +890,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L305">uri/src/Uri.ts:305</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L306">uri/src/Uri.ts:306</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -908,7 +907,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L313">uri/src/Uri.ts:313</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L314">uri/src/Uri.ts:314</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -925,7 +924,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L321">uri/src/Uri.ts:321</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L322">uri/src/Uri.ts:322</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -942,7 +941,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L329">uri/src/Uri.ts:329</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L330">uri/src/Uri.ts:330</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -959,7 +958,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L337">uri/src/Uri.ts:337</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L338">uri/src/Uri.ts:338</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -976,7 +975,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L345">uri/src/Uri.ts:345</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L346">uri/src/Uri.ts:346</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -993,7 +992,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/26aec5b/packages/uri/src/Uri.ts#L43">uri/src/Uri.ts:43</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L44">uri/src/Uri.ts:44</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
