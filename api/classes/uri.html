@@ -67,15 +67,22 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Represents URI (Unified Resource Identifier).</p>
+						<p>Represents URI (Unified Resource Identifier).
+						The implementation is immutable, any change produce a new Uri instance.</p>
 					</div>
-					<pre><code class="language-ts"><span class="hljs-comment">// Parse URI string</span>
-
-<span class="hljs-keyword">const</span> uri = <span class="hljs-keyword">new</span> Uri(<span class="hljs-string">'https://my-blog.com/post/12312#cut'</span>);
-uri.schema   <span class="hljs-comment">// 'https'</span>
-uri.host     <span class="hljs-comment">// 'my-blog.com'</span>
-uri.path     <span class="hljs-comment">// '/post/12312'</span>
-uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
+					<p>Parse URI string:</p>
+					<pre><code class="language-ts"><span class="hljs-keyword">const</span> uri = <span class="hljs-keyword">new</span> Uri(<span class="hljs-string">'https://my-blog.com/post/12312#cut'</span>);
+uri.schema               <span class="hljs-comment">// 'https'</span>
+uri.host                 <span class="hljs-comment">// 'my-blog.com'</span>
+uri.path                 <span class="hljs-comment">// '/post/12312'</span>
+uri.fragment             <span class="hljs-comment">// 'cut'</span></code></pre>
+					<p>Immutable operations:</p>
+					<pre><code class="language-ts"><span class="hljs-keyword">const</span> baseUri = <span class="hljs-keyword">new</span> Uri(<span class="hljs-string">'https://my-blog.com'</span>);
+<span class="hljs-keyword">const</span> articleUri = baseUri.withPath(<span class="hljs-string">'/post/132'</span>);
+<span class="hljs-keyword">const</span> cutArticleUri = articleUri.withFragment(<span class="hljs-string">'cut'</span>);
+baseUri.toString()       <span class="hljs-comment">// 'https://my-blog.com'</span>
+articleUri.toString()    <span class="hljs-comment">// 'https://my-blog.com/post/132'</span>
+cutArticleUri.toString() <span class="hljs-comment">// 'https://my-blog.com/post/132#cut'</span></code></pre>
 					<dl class="tsd-comment-tags">
 						<dt>since</dt>
 						<dd><p>0.0.1</p>
@@ -177,7 +184,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L87">uri/src/Uri.ts:87</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L99">uri/src/Uri.ts:99</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -195,7 +202,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L93">uri/src/Uri.ts:93</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L105">uri/src/Uri.ts:105</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -219,7 +226,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L99">uri/src/Uri.ts:99</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L111">uri/src/Uri.ts:111</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -255,7 +262,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L57">uri/src/Uri.ts:57</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L69">uri/src/Uri.ts:69</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -275,7 +282,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L61">uri/src/Uri.ts:61</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L73">uri/src/Uri.ts:73</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -295,7 +302,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L65">uri/src/Uri.ts:65</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L77">uri/src/Uri.ts:77</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -315,7 +322,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L69">uri/src/Uri.ts:69</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L81">uri/src/Uri.ts:81</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -332,7 +339,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L73">uri/src/Uri.ts:73</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L85">uri/src/Uri.ts:85</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span>
@@ -352,7 +359,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L77">uri/src/Uri.ts:77</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L89">uri/src/Uri.ts:89</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlyqueryparameters.html" class="tsd-signature-type">ReadOnlyQueryParameters</a></h4>
@@ -369,7 +376,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L81">uri/src/Uri.ts:81</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L93">uri/src/Uri.ts:93</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -389,7 +396,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L85">uri/src/Uri.ts:85</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L97">uri/src/Uri.ts:97</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span>
@@ -414,7 +421,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L158">uri/src/Uri.ts:158</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L170">uri/src/Uri.ts:170</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -433,7 +440,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L163">uri/src/Uri.ts:163</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L175">uri/src/Uri.ts:175</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -452,7 +459,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L169">uri/src/Uri.ts:169</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L181">uri/src/Uri.ts:181</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -485,7 +492,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L127">uri/src/Uri.ts:127</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L139">uri/src/Uri.ts:139</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -502,7 +509,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L129">uri/src/Uri.ts:129</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L141">uri/src/Uri.ts:141</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -529,7 +536,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L143">uri/src/Uri.ts:143</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L155">uri/src/Uri.ts:155</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -543,7 +550,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L145">uri/src/Uri.ts:145</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L157">uri/src/Uri.ts:157</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -570,7 +577,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/tojson.html">ToJSON</a>.<a href="../interfaces/tojson.html#tojson-1">toJSON</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L194">uri/src/Uri.ts:194</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L206">uri/src/Uri.ts:206</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -588,7 +595,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/tostring.html">ToString</a>.<a href="../interfaces/tostring.html#tostring-1">toString</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L198">uri/src/Uri.ts:198</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L210">uri/src/Uri.ts:210</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -605,9 +612,24 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L202">uri/src/Uri.ts:202</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L229">uri/src/Uri.ts:229</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Produces new URI based on current definition with overridden fragment component.</p>
+								</div>
+								<p>Usage example:</p>
+								<pre><code class="language-ts"><span class="hljs-keyword">const</span> baseUri = <span class="hljs-keyword">new</span> Uri(<span class="hljs-string">'https://my-blog.com/blog/article/14'</span>);
+<span class="hljs-keyword">const</span> cutUri = baseUri.withFragment(<span class="hljs-string">'cut'</span>);
+
+baseUri.toString()       <span class="hljs-comment">// 'https://my-blog.com/blog/article/14'</span>
+cutUri.toString()        <span class="hljs-comment">// 'https://my-blog.com/blog/article/14#cut'</span></code></pre>
+								<dl class="tsd-comment-tags">
+									<dt>nosideeffects</dt>
+									<dd></dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -628,7 +650,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L210">uri/src/Uri.ts:210</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L237">uri/src/Uri.ts:237</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -651,7 +673,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L218">uri/src/Uri.ts:218</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L245">uri/src/Uri.ts:245</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -677,7 +699,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L226">uri/src/Uri.ts:226</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L253">uri/src/Uri.ts:253</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -700,7 +722,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L234">uri/src/Uri.ts:234</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L261">uri/src/Uri.ts:261</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -723,7 +745,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L242">uri/src/Uri.ts:242</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L269">uri/src/Uri.ts:269</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -746,7 +768,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L250">uri/src/Uri.ts:250</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L277">uri/src/Uri.ts:277</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -769,7 +791,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L258">uri/src/Uri.ts:258</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L285">uri/src/Uri.ts:285</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -792,7 +814,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L266">uri/src/Uri.ts:266</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L293">uri/src/Uri.ts:293</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -815,7 +837,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L274">uri/src/Uri.ts:274</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L301">uri/src/Uri.ts:301</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -832,7 +854,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L282">uri/src/Uri.ts:282</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L309">uri/src/Uri.ts:309</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -850,7 +872,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L290">uri/src/Uri.ts:290</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L317">uri/src/Uri.ts:317</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -864,7 +886,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L292">uri/src/Uri.ts:292</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L319">uri/src/Uri.ts:319</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -890,7 +912,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L306">uri/src/Uri.ts:306</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L333">uri/src/Uri.ts:333</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -907,7 +929,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L314">uri/src/Uri.ts:314</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L341">uri/src/Uri.ts:341</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -924,7 +946,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L322">uri/src/Uri.ts:322</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L349">uri/src/Uri.ts:349</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -941,7 +963,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L330">uri/src/Uri.ts:330</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L357">uri/src/Uri.ts:357</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -958,7 +980,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L338">uri/src/Uri.ts:338</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L365">uri/src/Uri.ts:365</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -975,7 +997,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L346">uri/src/Uri.ts:346</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L373">uri/src/Uri.ts:373</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="uri.html" class="tsd-signature-type">Uri</a></h4>
@@ -992,7 +1014,7 @@ uri.fragment <span class="hljs-comment">// 'cut'</span></code></pre>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/88e1315/packages/uri/src/Uri.ts#L44">uri/src/Uri.ts:44</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/32671e9/packages/uri/src/Uri.ts#L56">uri/src/Uri.ts:56</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
