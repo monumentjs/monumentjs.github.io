@@ -88,7 +88,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<a href="queryableproxy.html" class="tsd-signature-type">QueryableProxy</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><a href="arraylist.html" class="tsd-signature-type">ArrayList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>
+						<a href="queryablebase.html" class="tsd-signature-type">QueryableBase</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>
 						<ul class="tsd-hierarchy">
 							<li>
 								<span class="target">ArraySet</span>
@@ -100,8 +100,6 @@
 			<section class="tsd-panel">
 				<h3>Implements</h3>
 				<ul class="tsd-hierarchy">
-					<li><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
-					<li><a href="../interfaces/equatable.html" class="tsd-signature-type">Equatable</a><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					<li><a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					<li><a href="../interfaces/set.html" class="tsd-signature-type">Set</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					<li><a href="../interfaces/cloneable.html" class="tsd-signature-type">Cloneable</a><span class="tsd-signature-symbol">&lt;</span><a href="arrayset.html" class="tsd-signature-type">ArraySet</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
@@ -114,35 +112,27 @@
 						<section class="tsd-index-section tsd-is-external">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-external"><a href="arrayset.html#constructor" class="tsd-kind-icon">constructor</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section tsd-is-inherited tsd-is-private-protected tsd-is-external">
-							<h3>Properties</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected tsd-is-external"><a href="arrayset.html#_items" class="tsd-kind-icon">_items</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-external"><a href="arrayset.html#constructor" class="tsd-kind-icon">constructor</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-external">
 							<h3>Accessors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-external"><a href="arrayset.html#changed" class="tsd-kind-icon">changed</a></li>
 								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-external"><a href="arrayset.html#comparator" class="tsd-kind-icon">comparator</a></li>
 								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#isempty" class="tsd-kind-icon">is<wbr>Empty</a></li>
-								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#length" class="tsd-kind-icon">length</a></li>
+								<li class="tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-external"><a href="arrayset.html#length" class="tsd-kind-icon">length</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-external">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#___iterator" class="tsd-kind-icon">__@iterator</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-external"><a href="arrayset.html#___iterator" class="tsd-kind-icon">__@iterator</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="arrayset.html#add" class="tsd-kind-icon">add</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="arrayset.html#addall" class="tsd-kind-icon">add<wbr>All</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited tsd-is-external"><a href="arrayset.html#aggregate" class="tsd-kind-icon">aggregate</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#all" class="tsd-kind-icon">all</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#any" class="tsd-kind-icon">any</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#average" class="tsd-kind-icon">average</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="arrayset.html#begintransaction" class="tsd-kind-icon">begin<wbr>Transaction</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="arrayset.html#clear" class="tsd-kind-icon">clear</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="arrayset.html#clone" class="tsd-kind-icon">clone</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#concat" class="tsd-kind-icon">concat</a></li>
@@ -150,7 +140,6 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#containsall" class="tsd-kind-icon">contains<wbr>All</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#count" class="tsd-kind-icon">count</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#distinct" class="tsd-kind-icon">distinct</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="arrayset.html#endtransaction" class="tsd-kind-icon">end<wbr>Transaction</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#entries" class="tsd-kind-icon">entries</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#equals" class="tsd-kind-icon">equals</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#except" class="tsd-kind-icon">except</a></li>
@@ -172,9 +161,6 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited tsd-is-external"><a href="arrayset.html#map" class="tsd-kind-icon">map</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#max" class="tsd-kind-icon">max</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#min" class="tsd-kind-icon">min</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="arrayset.html#onadd" class="tsd-kind-icon">on<wbr>Add</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="arrayset.html#onclear" class="tsd-kind-icon">on<wbr>Clear</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external"><a href="arrayset.html#onremove" class="tsd-kind-icon">on<wbr>Remove</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited tsd-is-external"><a href="arrayset.html#orderby" class="tsd-kind-icon">order<wbr>By</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="arrayset.html#overlaps" class="tsd-kind-icon">overlaps</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external"><a href="arrayset.html#random" class="tsd-kind-icon">random</a></li>
@@ -204,18 +190,17 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
 				<h2>Constructors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
-					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">new <wbr>Array<wbr>Set<span class="tsd-signature-symbol">(</span>items<span class="tsd-signature-symbol">?: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">?: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="arrayset.html" class="tsd-signature-type">ArraySet</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Overrides <a href="sequenceproxy.html">SequenceProxy</a>.<a href="sequenceproxy.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L37">core/src/collections/set/mutable/ArraySet.ts:37</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L18">core/src/collections/set/mutable/ArraySet.ts:18</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -232,39 +217,8 @@
 					</ul>
 				</section>
 			</section>
-			<section class="tsd-panel-group tsd-member-group tsd-is-inherited tsd-is-private-protected tsd-is-external">
-				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected tsd-is-external">
-					<a name="_items" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> _items</h3>
-					<div class="tsd-signature tsd-kind-icon">_items<span class="tsd-signature-symbol">:</span> <a href="arraylist.html" class="tsd-signature-type">ArrayList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></div>
-					<aside class="tsd-sources">
-						<p>Inherited from <a href="sequenceproxy.html">SequenceProxy</a>.<a href="sequenceproxy.html#_items">_items</a></p>
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/SequenceProxy.ts#L11">core/src/collections/base/proxy/SequenceProxy.ts:11</a></li>
-						</ul>
-					</aside>
-				</section>
-			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
 				<h2>Accessors</h2>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
-					<a name="changed" class="tsd-anchor"></a>
-					<h3>changed</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> changed<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/eventsource.html" class="tsd-signature-type">EventSource</a><span class="tsd-signature-symbol">&lt;</span><a href="setchangedeventargs.html" class="tsd-signature-type">SetChangedEventArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L31">core/src/collections/set/mutable/ArraySet.ts:31</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <a href="../interfaces/eventsource.html" class="tsd-signature-type">EventSource</a><span class="tsd-signature-symbol">&lt;</span><a href="setchangedeventargs.html" class="tsd-signature-type">SetChangedEventArgs</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
-						</li>
-					</ul>
-				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="comparator" class="tsd-anchor"></a>
 					<h3>comparator</h3>
@@ -275,7 +229,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L35">core/src/collections/set/mutable/ArraySet.ts:35</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L33">core/src/collections/set/mutable/ArraySet.ts:33</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -291,27 +245,27 @@
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#isempty">isEmpty</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#isempty">isEmpty</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L19">core/src/collections/base/proxy/QueryableProxy.ts:19</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L17">core/src/collections/base/QueryableBase.ts:17</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited tsd-is-external">
+				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
 					<a name="length" class="tsd-anchor"></a>
 					<h3>length</h3>
-					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited tsd-is-external">
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> length<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
-								<p>Inherited from <a href="sequenceproxy.html">SequenceProxy</a>.<a href="sequenceproxy.html#length">length</a></p>
+								<p>Overrides <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#length">length</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/SequenceProxy.ts#L13">core/src/collections/base/proxy/SequenceProxy.ts:13</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L29">core/src/collections/set/mutable/ArraySet.ts:29</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -321,19 +275,19 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
 				<h2>Methods</h2>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
 					<a name="___iterator" class="tsd-anchor"></a>
 					<h3>__@iterator</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">__@iterator<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#___iterator">__@iterator</a></p>
-								<p>Inherited from <a href="sequenceproxy.html">SequenceProxy</a>.<a href="sequenceproxy.html#___iterator">__@iterator</a></p>
+								<p>Overrides <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#___iterator">__@iterator</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/SequenceProxy.ts#L21">core/src/collections/base/proxy/SequenceProxy.ts:21</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L236">core/src/collections/set/mutable/ArraySet.ts:236</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -351,7 +305,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#add">add</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L78">core/src/collections/set/mutable/ArraySet.ts:78</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L37">core/src/collections/set/mutable/ArraySet.ts:37</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -375,7 +329,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#addall">addAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L82">core/src/collections/set/mutable/ArraySet.ts:82</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L41">core/src/collections/set/mutable/ArraySet.ts:41</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -398,9 +352,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#aggregate">aggregate</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#aggregate">aggregate</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#aggregate">aggregate</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L23">core/src/collections/base/proxy/QueryableProxy.ts:23</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L21">core/src/collections/base/QueryableBase.ts:21</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -432,9 +386,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#all">all</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#all">all</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#all">all</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L27">core/src/collections/base/proxy/QueryableProxy.ts:27</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L28">core/src/collections/base/QueryableBase.ts:28</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -457,9 +411,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#any">any</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#any">any</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#any">any</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L31">core/src/collections/base/proxy/QueryableProxy.ts:31</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L32">core/src/collections/base/QueryableBase.ts:32</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -482,9 +436,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#average">average</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#average">average</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#average">average</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L35">core/src/collections/base/proxy/QueryableProxy.ts:35</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L36">core/src/collections/base/QueryableBase.ts:36</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -494,23 +448,6 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-					<a name="begintransaction" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> begin<wbr>Transaction</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">begin<wbr>Transaction<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L291">core/src/collections/set/mutable/ArraySet.ts:291</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -525,7 +462,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#clear">clear</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L100">core/src/collections/set/mutable/ArraySet.ts:100</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L55">core/src/collections/set/mutable/ArraySet.ts:55</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -543,7 +480,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/cloneable.html">Cloneable</a>.<a href="../interfaces/cloneable.html#clone">clone</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L115">core/src/collections/set/mutable/ArraySet.ts:115</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L59">core/src/collections/set/mutable/ArraySet.ts:59</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="arrayset.html" class="tsd-signature-type">ArraySet</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -560,9 +497,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#concat">concat</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#concat">concat</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#concat">concat</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L39">core/src/collections/base/proxy/QueryableProxy.ts:39</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L40">core/src/collections/base/QueryableBase.ts:40</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -579,22 +516,22 @@
 					<a name="contains" class="tsd-anchor"></a>
 					<h3>contains</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">contains<span class="tsd-signature-symbol">(</span>item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-						<li class="tsd-signature tsd-kind-icon">contains<span class="tsd-signature-symbol">(</span>item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">contains<span class="tsd-signature-symbol">(</span>otherItem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">contains<span class="tsd-signature-symbol">(</span>otherItem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#contains">contains</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#contains">contains</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#contains">contains</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L43">core/src/collections/base/proxy/QueryableProxy.ts:43</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L44">core/src/collections/base/QueryableBase.ts:44</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>item: <span class="tsd-signature-type">T</span></h5>
+									<h5>otherItem: <span class="tsd-signature-type">T</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -602,15 +539,15 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#contains">contains</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#contains">contains</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#contains">contains</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L45">core/src/collections/base/proxy/QueryableProxy.ts:45</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L46">core/src/collections/base/QueryableBase.ts:46</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>item: <span class="tsd-signature-type">T</span></h5>
+									<h5>otherItem: <span class="tsd-signature-type">T</span></h5>
 								</li>
 								<li>
 									<h5>comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
@@ -631,9 +568,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#containsall">containsAll</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#containsall">containsAll</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#containsall">containsAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L51">core/src/collections/base/proxy/QueryableProxy.ts:51</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L52">core/src/collections/base/QueryableBase.ts:52</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -647,9 +584,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#containsall">containsAll</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#containsall">containsAll</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#containsall">containsAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L53">core/src/collections/base/proxy/QueryableProxy.ts:53</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L54">core/src/collections/base/QueryableBase.ts:54</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -675,9 +612,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#count">count</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#count">count</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#count">count</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L59">core/src/collections/base/proxy/QueryableProxy.ts:59</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L60">core/src/collections/base/QueryableBase.ts:60</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -701,19 +638,24 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#distinct">distinct</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#distinct">distinct</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#distinct">distinct</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L63">core/src/collections/base/proxy/QueryableProxy.ts:63</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L67">core/src/collections/base/QueryableBase.ts:67</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns distinct elements from a sequence by using a specified EqualityComparator to compare values.</p>
+								</div>
+							</div>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#distinct">distinct</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#distinct">distinct</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#distinct">distinct</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L65">core/src/collections/base/proxy/QueryableProxy.ts:65</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L69">core/src/collections/base/QueryableBase.ts:69</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -723,23 +665,6 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-					<a name="endtransaction" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> end<wbr>Transaction</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">end<wbr>Transaction<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L297">core/src/collections/set/mutable/ArraySet.ts:297</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -753,9 +678,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#entries">entries</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#entries">entries</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#entries">entries</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L71">core/src/collections/base/proxy/QueryableProxy.ts:71</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L75">core/src/collections/base/QueryableBase.ts:75</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -766,22 +691,22 @@
 					<a name="equals" class="tsd-anchor"></a>
 					<h3>equals</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>other<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>other<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#equals">equals</a></p>
-								<p>Inherited from <a href="sequenceproxy.html">SequenceProxy</a>.<a href="sequenceproxy.html#equals">equals</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#equals">equals</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/SequenceProxy.ts#L25">core/src/collections/base/proxy/SequenceProxy.ts:25</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L79">core/src/collections/base/QueryableBase.ts:79</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>other: <a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>otherList: <a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -789,15 +714,15 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#equals">equals</a></p>
-								<p>Inherited from <a href="sequenceproxy.html">SequenceProxy</a>.<a href="sequenceproxy.html#equals">equals</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#equals">equals</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/SequenceProxy.ts#L26">core/src/collections/base/proxy/SequenceProxy.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L81">core/src/collections/base/QueryableBase.ts:81</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>other: <a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>otherList: <a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
 									<h5>comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
@@ -818,9 +743,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#except">except</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#except">except</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#except">except</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L75">core/src/collections/base/proxy/QueryableProxy.ts:75</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L87">core/src/collections/base/QueryableBase.ts:87</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -834,9 +759,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#except">except</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#except">except</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#except">except</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L77">core/src/collections/base/proxy/QueryableProxy.ts:77</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L89">core/src/collections/base/QueryableBase.ts:89</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -862,9 +787,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#findall">findAll</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#findall">findAll</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#findall">findAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L83">core/src/collections/base/proxy/QueryableProxy.ts:83</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L95">core/src/collections/base/QueryableBase.ts:95</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -888,9 +813,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#first">first</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#first">first</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#first">first</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L87">core/src/collections/base/proxy/QueryableProxy.ts:87</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L99">core/src/collections/base/QueryableBase.ts:99</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -907,9 +832,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#first">first</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#first">first</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#first">first</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L89">core/src/collections/base/proxy/QueryableProxy.ts:89</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L101">core/src/collections/base/QueryableBase.ts:101</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -935,9 +860,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#firstordefault">firstOrDefault</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#firstordefault">firstOrDefault</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#firstordefault">firstOrDefault</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L96">core/src/collections/base/proxy/QueryableProxy.ts:96</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L111">core/src/collections/base/QueryableBase.ts:111</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -962,9 +887,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreach">forEach</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#foreach">forEach</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L100">core/src/collections/base/proxy/QueryableProxy.ts:100</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L115">core/src/collections/base/QueryableBase.ts:115</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -978,9 +903,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreach">forEach</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#foreach">forEach</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L101">core/src/collections/base/proxy/QueryableProxy.ts:101</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L117">core/src/collections/base/QueryableBase.ts:117</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -997,9 +922,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreach">forEach</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#foreach">forEach</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L102">core/src/collections/base/proxy/QueryableProxy.ts:102</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L119">core/src/collections/base/QueryableBase.ts:119</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1030,9 +955,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreachback">forEachBack</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#foreachback">forEachBack</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L111">core/src/collections/base/proxy/QueryableProxy.ts:111</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L125">core/src/collections/base/QueryableBase.ts:125</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1046,9 +971,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreachback">forEachBack</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#foreachback">forEachBack</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L112">core/src/collections/base/proxy/QueryableProxy.ts:112</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L127">core/src/collections/base/QueryableBase.ts:127</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1065,9 +990,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreachback">forEachBack</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#foreachback">forEachBack</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L113">core/src/collections/base/proxy/QueryableProxy.ts:113</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L129">core/src/collections/base/QueryableBase.ts:129</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1097,9 +1022,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#groupby">groupBy</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#groupby">groupBy</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#groupby">groupBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L122">core/src/collections/base/proxy/QueryableProxy.ts:122</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L139">core/src/collections/base/QueryableBase.ts:139</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1119,9 +1044,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#groupby">groupBy</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#groupby">groupBy</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#groupby">groupBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L126">core/src/collections/base/proxy/QueryableProxy.ts:126</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L143">core/src/collections/base/QueryableBase.ts:143</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1154,9 +1079,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#intersect">intersect</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#intersect">intersect</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#intersect">intersect</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L138">core/src/collections/base/proxy/QueryableProxy.ts:138</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L155">core/src/collections/base/QueryableBase.ts:155</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1170,9 +1095,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#intersect">intersect</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#intersect">intersect</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#intersect">intersect</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L140">core/src/collections/base/proxy/QueryableProxy.ts:140</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L157">core/src/collections/base/QueryableBase.ts:157</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1199,7 +1124,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#intersectwith">intersectWith</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L119">core/src/collections/set/mutable/ArraySet.ts:119</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L63">core/src/collections/set/mutable/ArraySet.ts:63</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1223,7 +1148,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#ispropersubsetof">isProperSubsetOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L145">core/src/collections/set/mutable/ArraySet.ts:145</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L89">core/src/collections/set/mutable/ArraySet.ts:89</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1247,7 +1172,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#ispropersupersetof">isProperSupersetOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L153">core/src/collections/set/mutable/ArraySet.ts:153</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L97">core/src/collections/set/mutable/ArraySet.ts:97</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1271,7 +1196,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#issubsetof">isSubsetOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L161">core/src/collections/set/mutable/ArraySet.ts:161</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L105">core/src/collections/set/mutable/ArraySet.ts:105</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1295,7 +1220,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#issupersetof">isSupersetOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L185">core/src/collections/set/mutable/ArraySet.ts:185</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L129">core/src/collections/set/mutable/ArraySet.ts:129</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1319,9 +1244,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#join">join</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#join">join</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#join">join</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L146">core/src/collections/base/proxy/QueryableProxy.ts:146</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L163">core/src/collections/base/QueryableBase.ts:163</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1356,9 +1281,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#join">join</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#join">join</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#join">join</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L153">core/src/collections/base/proxy/QueryableProxy.ts:153</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L170">core/src/collections/base/QueryableBase.ts:170</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1406,9 +1331,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#last">last</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#last">last</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#last">last</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L171">core/src/collections/base/proxy/QueryableProxy.ts:171</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L188">core/src/collections/base/QueryableBase.ts:188</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1425,9 +1350,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#last">last</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#last">last</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#last">last</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L173">core/src/collections/base/proxy/QueryableProxy.ts:173</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L190">core/src/collections/base/QueryableBase.ts:190</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1453,9 +1378,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#lastordefault">lastOrDefault</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#lastordefault">lastOrDefault</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#lastordefault">lastOrDefault</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L180">core/src/collections/base/proxy/QueryableProxy.ts:180</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L200">core/src/collections/base/QueryableBase.ts:200</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1478,9 +1403,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#map">map</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#map">map</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#map">map</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L184">core/src/collections/base/proxy/QueryableProxy.ts:184</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L204">core/src/collections/base/QueryableBase.ts:204</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1509,9 +1434,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#max">max</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#max">max</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#max">max</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L188">core/src/collections/base/proxy/QueryableProxy.ts:188</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L208">core/src/collections/base/QueryableBase.ts:208</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1534,9 +1459,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#min">min</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#min">min</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#min">min</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L192">core/src/collections/base/proxy/QueryableProxy.ts:192</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L212">core/src/collections/base/QueryableBase.ts:212</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1546,75 +1471,6 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-					<a name="onadd" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> on<wbr>Add</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">on<wbr>Add<span class="tsd-signature-symbol">(</span>item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L304">core/src/collections/set/mutable/ArraySet.ts:304</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>item: <span class="tsd-signature-type">T</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-					<a name="onclear" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> on<wbr>Clear</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">on<wbr>Clear<span class="tsd-signature-symbol">(</span>itemsRemoved<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L312">core/src/collections/set/mutable/ArraySet.ts:312</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>itemsRemoved: <span class="tsd-signature-type">number</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-					<a name="onremove" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagProtected">Protected</span> on<wbr>Remove</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">on<wbr>Remove<span class="tsd-signature-symbol">(</span>item<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L320">core/src/collections/set/mutable/ArraySet.ts:320</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>item: <span class="tsd-signature-type">T</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1629,9 +1485,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#orderby">orderBy</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#orderby">orderBy</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#orderby">orderBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L196">core/src/collections/base/proxy/QueryableProxy.ts:196</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L216">core/src/collections/base/QueryableBase.ts:216</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1654,9 +1510,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#orderby">orderBy</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#orderby">orderBy</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#orderby">orderBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L201">core/src/collections/base/proxy/QueryableProxy.ts:201</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L221">core/src/collections/base/QueryableBase.ts:221</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1692,7 +1548,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#overlaps">overlaps</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L209">core/src/collections/set/mutable/ArraySet.ts:209</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L153">core/src/collections/set/mutable/ArraySet.ts:153</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1715,9 +1571,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#random">random</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#random">random</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#random">random</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L215">core/src/collections/base/proxy/QueryableProxy.ts:215</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L235">core/src/collections/base/QueryableBase.ts:235</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
@@ -1735,7 +1591,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#remove">remove</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L221">core/src/collections/set/mutable/ArraySet.ts:221</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L165">core/src/collections/set/mutable/ArraySet.ts:165</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1759,7 +1615,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#removeall">removeAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L225">core/src/collections/set/mutable/ArraySet.ts:225</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L169">core/src/collections/set/mutable/ArraySet.ts:169</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1783,7 +1639,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#removeby">removeBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L229">core/src/collections/set/mutable/ArraySet.ts:229</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L173">core/src/collections/set/mutable/ArraySet.ts:173</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1807,7 +1663,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#retainall">retainAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L233">core/src/collections/set/mutable/ArraySet.ts:233</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L177">core/src/collections/set/mutable/ArraySet.ts:177</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1830,9 +1686,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#reverse">reverse</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#reverse">reverse</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#reverse">reverse</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L219">core/src/collections/base/proxy/QueryableProxy.ts:219</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L239">core/src/collections/base/QueryableBase.ts:239</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1843,15 +1699,15 @@
 					<a name="selectmany" class="tsd-anchor"></a>
 					<h3>select<wbr>Many</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">select<wbr>Many&lt;TInnerItem, TResult&gt;<span class="tsd-signature-symbol">(</span>collectionSelector<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TInnerItem</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, resultSelector<span class="tsd-signature-symbol">: </span><a href="../index.html#combinefunction" class="tsd-signature-type">CombineFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TInnerItem</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">select<wbr>Many&lt;TInnerItem, TResult&gt;<span class="tsd-signature-symbol">(</span>sequenceSelector<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TInnerItem</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span>, resultSelector<span class="tsd-signature-symbol">: </span><a href="../index.html#combinefunction" class="tsd-signature-type">CombineFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TInnerItem</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#selectmany">selectMany</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#selectmany">selectMany</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#selectmany">selectMany</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L223">core/src/collections/base/proxy/QueryableProxy.ts:223</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L243">core/src/collections/base/QueryableBase.ts:243</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1866,7 +1722,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>collectionSelector: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TInnerItem</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>sequenceSelector: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TInnerItem</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
 									<h5>resultSelector: <a href="../index.html#combinefunction" class="tsd-signature-type">CombineFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TInnerItem</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span></h5>
@@ -1887,7 +1743,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#setequals">setEquals</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L237">core/src/collections/set/mutable/ArraySet.ts:237</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L181">core/src/collections/set/mutable/ArraySet.ts:181</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1910,9 +1766,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#skip">skip</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#skip">skip</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#skip">skip</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L230">core/src/collections/base/proxy/QueryableProxy.ts:230</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L250">core/src/collections/base/QueryableBase.ts:250</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1929,21 +1785,21 @@
 					<a name="skipwhile" class="tsd-anchor"></a>
 					<h3>skip<wbr>While</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">skip<wbr>While<span class="tsd-signature-symbol">(</span>condition<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">skip<wbr>While<span class="tsd-signature-symbol">(</span>predicate<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#skipwhile">skipWhile</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#skipwhile">skipWhile</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#skipwhile">skipWhile</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L234">core/src/collections/base/proxy/QueryableProxy.ts:234</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L254">core/src/collections/base/QueryableBase.ts:254</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>condition: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>predicate: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1961,9 +1817,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#slice">slice</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#slice">slice</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#slice">slice</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L238">core/src/collections/base/proxy/QueryableProxy.ts:238</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L258">core/src/collections/base/QueryableBase.ts:258</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1977,9 +1833,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#slice">slice</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#slice">slice</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#slice">slice</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L240">core/src/collections/base/proxy/QueryableProxy.ts:240</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L260">core/src/collections/base/QueryableBase.ts:260</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2005,9 +1861,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#sum">sum</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#sum">sum</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#sum">sum</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L246">core/src/collections/base/proxy/QueryableProxy.ts:246</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L266">core/src/collections/base/QueryableBase.ts:266</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2031,7 +1887,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#symmetricexceptwith">symmetricExceptWith</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L269">core/src/collections/set/mutable/ArraySet.ts:269</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L213">core/src/collections/set/mutable/ArraySet.ts:213</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2054,9 +1910,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#take">take</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#take">take</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#take">take</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L250">core/src/collections/base/proxy/QueryableProxy.ts:250</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L270">core/src/collections/base/QueryableBase.ts:270</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2073,21 +1929,21 @@
 					<a name="takewhile" class="tsd-anchor"></a>
 					<h3>take<wbr>While</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">take<wbr>While<span class="tsd-signature-symbol">(</span>condition<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">take<wbr>While<span class="tsd-signature-symbol">(</span>predicate<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#takewhile">takeWhile</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#takewhile">takeWhile</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#takewhile">takeWhile</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L254">core/src/collections/base/proxy/QueryableProxy.ts:254</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L274">core/src/collections/base/QueryableBase.ts:274</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>condition: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>predicate: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/queryable.html" class="tsd-signature-type">Queryable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -2104,9 +1960,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#toarray">toArray</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#toarray">toArray</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#toarray">toArray</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L258">core/src/collections/base/proxy/QueryableProxy.ts:258</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L278">core/src/collections/base/QueryableBase.ts:278</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -2123,9 +1979,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#tojson">toJSON</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#tojson">toJSON</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#tojson">toJSON</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L262">core/src/collections/base/proxy/QueryableProxy.ts:262</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L282">core/src/collections/base/QueryableBase.ts:282</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -2143,9 +1999,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#union">union</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#union">union</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#union">union</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L266">core/src/collections/base/proxy/QueryableProxy.ts:266</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L286">core/src/collections/base/QueryableBase.ts:286</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2159,9 +2015,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#union">union</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#union">union</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#union">union</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L268">core/src/collections/base/proxy/QueryableProxy.ts:268</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L288">core/src/collections/base/QueryableBase.ts:288</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2188,7 +2044,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#unionwith">unionWith</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/set/mutable/ArraySet.ts#L287">core/src/collections/set/mutable/ArraySet.ts:287</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/set/mutable/ArraySet.ts#L231">core/src/collections/set/mutable/ArraySet.ts:231</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2211,9 +2067,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#zip">zip</a></p>
-								<p>Inherited from <a href="queryableproxy.html">QueryableProxy</a>.<a href="queryableproxy.html#zip">zip</a></p>
+								<p>Inherited from <a href="queryablebase.html">QueryableBase</a>.<a href="queryablebase.html#zip">zip</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/e67d807/packages/core/src/collections/base/proxy/QueryableProxy.ts#L274">core/src/collections/base/proxy/QueryableProxy.ts:274</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/1d8230f/packages/core/src/collections/base/QueryableBase.ts#L294">core/src/collections/base/QueryableBase.ts:294</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2255,14 +2111,8 @@
 					<li class="current tsd-kind-class tsd-has-type-parameter tsd-is-external">
 						<a href="arrayset.html" class="tsd-kind-icon">Array<wbr>Set</a>
 						<ul>
-							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
 								<a href="arrayset.html#constructor" class="tsd-kind-icon">constructor</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-protected tsd-is-external">
-								<a href="arrayset.html#_items" class="tsd-kind-icon">_items</a>
-							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
-								<a href="arrayset.html#changed" class="tsd-kind-icon">changed</a>
 							</li>
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 								<a href="arrayset.html#comparator" class="tsd-kind-icon">comparator</a>
@@ -2270,10 +2120,10 @@
 							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="arrayset.html#isempty" class="tsd-kind-icon">is<wbr>Empty</a>
 							</li>
-							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-inherited tsd-is-external">
+							<li class=" tsd-kind-get-signature tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
 								<a href="arrayset.html#length" class="tsd-kind-icon">length</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-external">
 								<a href="arrayset.html#___iterator" class="tsd-kind-icon">__@iterator</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
@@ -2293,9 +2143,6 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="arrayset.html#average" class="tsd-kind-icon">average</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="arrayset.html#begintransaction" class="tsd-kind-icon">begin<wbr>Transaction</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
 								<a href="arrayset.html#clear" class="tsd-kind-icon">clear</a>
@@ -2317,9 +2164,6 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="arrayset.html#distinct" class="tsd-kind-icon">distinct</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="arrayset.html#endtransaction" class="tsd-kind-icon">end<wbr>Transaction</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="arrayset.html#entries" class="tsd-kind-icon">entries</a>
@@ -2383,15 +2227,6 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 								<a href="arrayset.html#min" class="tsd-kind-icon">min</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="arrayset.html#onadd" class="tsd-kind-icon">on<wbr>Add</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="arrayset.html#onclear" class="tsd-kind-icon">on<wbr>Clear</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected tsd-is-external">
-								<a href="arrayset.html#onremove" class="tsd-kind-icon">on<wbr>Remove</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited tsd-is-external">
 								<a href="arrayset.html#orderby" class="tsd-kind-icon">order<wbr>By</a>
