@@ -78,6 +78,7 @@
 								<li class="tsd-kind-enum tsd-is-external"><a href="enums/priority.html" class="tsd-kind-icon">Priority</a></li>
 								<li class="tsd-kind-enum tsd-is-external"><a href="enums/releasestatus.html" class="tsd-kind-icon">Release<wbr>Status</a></li>
 								<li class="tsd-kind-enum tsd-is-external"><a href="enums/sortorder.html" class="tsd-kind-icon">Sort<wbr>Order</a></li>
+								<li class="tsd-kind-enum tsd-is-external"><a href="enums/subjectstate.html" class="tsd-kind-icon">Subject<wbr>State</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-external">
@@ -87,6 +88,7 @@
 								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/abstractlist.html" class="tsd-kind-icon">Abstract<wbr>List</a></li>
 								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/abstractmap.html" class="tsd-kind-icon">Abstract<wbr>Map</a></li>
 								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/abstractreadonlymap.html" class="tsd-kind-icon">Abstract<wbr>Read<wbr>Only<wbr>Map</a></li>
+								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/abstractsubject.html" class="tsd-kind-icon">Abstract<wbr>Subject</a></li>
 								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/arraylist.html" class="tsd-kind-icon">Array<wbr>List</a></li>
 								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/arrayset.html" class="tsd-kind-icon">Array<wbr>Set</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/bitset.html" class="tsd-kind-icon">Bit<wbr>Set</a></li>
@@ -152,13 +154,14 @@
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/regexputils.html" class="tsd-kind-icon">Reg<wbr>Exp<wbr>Utils</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/runtimeexception.html" class="tsd-kind-icon">Runtime<wbr>Exception</a></li>
 								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/sequenceproxy.html" class="tsd-kind-icon">Sequence<wbr>Proxy</a></li>
+								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/store.html" class="tsd-kind-icon">Store</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/strictequalitycomparator.html" class="tsd-kind-icon">Strict<wbr>Equality<wbr>Comparator</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/stringbuilder.html" class="tsd-kind-icon">String<wbr>Builder</a></li>
-								<li class="tsd-kind-class tsd-is-external"><a href="classes/stringpool.html" class="tsd-kind-icon">String<wbr>Pool</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/stringutils.html" class="tsd-kind-icon">String<wbr>Utils</a></li>
 								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/subscription.html" class="tsd-kind-icon">Subscription</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/templatestring.html" class="tsd-kind-icon">Template<wbr>String</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/treenode.html" class="tsd-kind-icon">Tree<wbr>Node</a></li>
+								<li class="tsd-kind-class tsd-is-external"><a href="classes/unknownactionexception.html" class="tsd-kind-icon">Unknown<wbr>Action<wbr>Exception</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/uri.html" class="tsd-kind-icon">Uri</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/uribuilder.html" class="tsd-kind-icon">Uri<wbr>Builder</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/uricomponentsnormalizer.html" class="tsd-kind-icon">Uri<wbr>Components<wbr>Normalizer</a></li>
@@ -176,6 +179,7 @@
 						<section class="tsd-index-section tsd-is-external">
 							<h3>Interfaces</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-interface tsd-is-external"><a href="interfaces/action.html" class="tsd-kind-icon">Action</a></li>
 								<li class="tsd-kind-interface tsd-is-external"><a href="interfaces/attributeaccessor.html" class="tsd-kind-icon">Attribute<wbr>Accessor</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/builder.html" class="tsd-kind-icon">Builder</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/cloneable.html" class="tsd-kind-icon">Cloneable</a></li>
@@ -235,8 +239,22 @@
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-external">
+							<h3>Variables</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-variable tsd-is-external"><a href="index.html#comma" class="tsd-kind-icon">COMMA</a></li>
+								<li class="tsd-kind-variable tsd-is-external"><a href="index.html#empty_string" class="tsd-kind-icon">EMPTY_<wbr>STRING</a></li>
+								<li class="tsd-kind-variable tsd-is-external"><a href="index.html#eol_cr" class="tsd-kind-icon">EOL_<wbr>CR</a></li>
+								<li class="tsd-kind-variable tsd-is-external"><a href="index.html#eol_crlf" class="tsd-kind-icon">EOL_<wbr>CRLF</a></li>
+								<li class="tsd-kind-variable tsd-is-external"><a href="index.html#eol_lf" class="tsd-kind-icon">EOL_<wbr>LF</a></li>
+								<li class="tsd-kind-variable tsd-is-external"><a href="index.html#period" class="tsd-kind-icon">PERIOD</a></li>
+								<li class="tsd-kind-variable tsd-is-external"><a href="index.html#space" class="tsd-kind-icon">SPACE</a></li>
+								<li class="tsd-kind-variable tsd-is-external"><a href="index.html#tab" class="tsd-kind-icon">TAB</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-external">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-is-external"><a href="index.html#noop" class="tsd-kind-icon">noop</a></li>
 								<li class="tsd-kind-function tsd-is-external"><a href="index.html#range" class="tsd-kind-icon">range</a></li>
 								<li class="tsd-kind-function tsd-is-external"><a href="index.html#times" class="tsd-kind-icon">times</a></li>
 							</ul>
@@ -252,7 +270,7 @@
 					<div class="tsd-signature tsd-kind-icon">Aggregate<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/collections/base/AggregateFunction.ts#L6">core/src/collections/base/AggregateFunction.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/collections/base/AggregateFunction.ts#L6">core/src/collections/base/AggregateFunction.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -299,7 +317,7 @@
 					<div class="tsd-signature tsd-kind-icon">Combine<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/collections/base/CombineFunction.ts#L6">core/src/collections/base/CombineFunction.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/collections/base/CombineFunction.ts#L6">core/src/collections/base/CombineFunction.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -343,7 +361,7 @@
 					<div class="tsd-signature tsd-kind-icon">Event<wbr>Handler<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/events/EventHandler.ts#L7">core/src/events/EventHandler.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/events/EventHandler.ts#L7">core/src/events/EventHandler.ts:7</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -384,7 +402,7 @@
 					<div class="tsd-signature tsd-kind-icon">Get<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/base/types.ts#L6">core/src/base/types.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/base/types.ts#L6">core/src/base/types.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -419,7 +437,7 @@
 					<div class="tsd-signature tsd-kind-icon">Iterator<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/collections/base/IteratorFunction.ts#L6">core/src/collections/base/IteratorFunction.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/collections/base/IteratorFunction.ts#L6">core/src/collections/base/IteratorFunction.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -463,7 +481,7 @@
 					<div class="tsd-signature tsd-kind-icon">Map<wbr>Iterator<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/collections/base/MapIteratorFunction.ts#L6">core/src/collections/base/MapIteratorFunction.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/collections/base/MapIteratorFunction.ts#L6">core/src/collections/base/MapIteratorFunction.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -507,7 +525,7 @@
 					<div class="tsd-signature tsd-kind-icon">Selector<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/collections/base/SelectorFunction.ts#L6">core/src/collections/base/SelectorFunction.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/collections/base/SelectorFunction.ts#L6">core/src/collections/base/SelectorFunction.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -548,7 +566,7 @@
 					<div class="tsd-signature tsd-kind-icon">Set<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/base/types.ts#L12">core/src/base/types.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/base/types.ts#L12">core/src/base/types.ts:12</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -589,7 +607,7 @@
 					<div class="tsd-signature tsd-kind-icon">Supplier<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/base/SupplierFunction.ts#L7">core/src/base/SupplierFunction.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/base/SupplierFunction.ts#L7">core/src/base/SupplierFunction.ts:7</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -624,7 +642,7 @@
 					<div class="tsd-signature tsd-kind-icon">Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/base/Type.ts#L7">core/src/base/Type.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/base/Type.ts#L7">core/src/base/Type.ts:7</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -645,7 +663,119 @@
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
+				<h2>Variables</h2>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-external">
+					<a name="comma" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> COMMA</h3>
+					<div class="tsd-signature tsd-kind-icon">COMMA<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">","</span><span class="tsd-signature-symbol"> =&nbsp;&quot;,&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/text/Strings.ts#L7">core/src/text/Strings.ts:7</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-external">
+					<a name="empty_string" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> EMPTY_<wbr>STRING</h3>
+					<div class="tsd-signature tsd-kind-icon">EMPTY_<wbr>STRING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;&quot;</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/text/Strings.ts#L5">core/src/text/Strings.ts:5</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+							<dt>since</dt>
+							<dd><p>0.0.1</p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-external">
+					<a name="eol_cr" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> EOL_<wbr>CR</h3>
+					<div class="tsd-signature tsd-kind-icon">EOL_<wbr>CR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"
+							"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;
+					&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/text/Strings.ts#L11">core/src/text/Strings.ts:11</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-external">
+					<a name="eol_crlf" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> EOL_<wbr>CRLF</h3>
+					<div class="tsd-signature tsd-kind-icon">EOL_<wbr>CRLF<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">""</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/text/Strings.ts#L10">core/src/text/Strings.ts:10</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-external">
+					<a name="eol_lf" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> EOL_<wbr>LF</h3>
+					<div class="tsd-signature tsd-kind-icon">EOL_<wbr>LF<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">""</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/text/Strings.ts#L12">core/src/text/Strings.ts:12</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-external">
+					<a name="period" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> PERIOD</h3>
+					<div class="tsd-signature tsd-kind-icon">PERIOD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"."</span><span class="tsd-signature-symbol"> =&nbsp;&quot;.&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/text/Strings.ts#L8">core/src/text/Strings.ts:8</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-external">
+					<a name="space" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> SPACE</h3>
+					<div class="tsd-signature tsd-kind-icon">SPACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">" "</span><span class="tsd-signature-symbol"> =&nbsp;&quot; &quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/text/Strings.ts#L6">core/src/text/Strings.ts:6</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-variable tsd-is-external">
+					<a name="tab" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagConst">Const</span> TAB</h3>
+					<div class="tsd-signature tsd-kind-icon">TAB<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"	"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;	&quot;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/text/Strings.ts#L9">core/src/text/Strings.ts:9</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-external">
 				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-is-external">
+					<a name="noop" class="tsd-anchor"></a>
+					<h3>noop</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">noop<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/function/noop.ts#L2">core/src/function/noop.ts:2</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-is-external">
 					<a name="range" class="tsd-anchor"></a>
 					<h3>range</h3>
@@ -656,7 +786,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/function/range.ts#L4">core/src/function/range.ts:4</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/function/range.ts#L4">core/src/function/range.ts:4</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -685,7 +815,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7f3c859/packages/core/src/function/times.ts#L3">core/src/function/times.ts:3</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/2ed7c68/packages/core/src/function/times.ts#L3">core/src/function/times.ts:3</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -749,6 +879,9 @@
 					<li class=" tsd-kind-enum tsd-is-external">
 						<a href="enums/sortorder.html" class="tsd-kind-icon">Sort<wbr>Order</a>
 					</li>
+					<li class=" tsd-kind-enum tsd-is-external">
+						<a href="enums/subjectstate.html" class="tsd-kind-icon">Subject<wbr>State</a>
+					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter tsd-is-external">
 						<a href="classes/abstractimmutablelist.html" class="tsd-kind-icon">Abstract<wbr>Immutable<wbr>List</a>
 					</li>
@@ -760,6 +893,9 @@
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter tsd-is-external">
 						<a href="classes/abstractreadonlymap.html" class="tsd-kind-icon">Abstract<wbr>Read<wbr>Only<wbr>Map</a>
+					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter tsd-is-external">
+						<a href="classes/abstractsubject.html" class="tsd-kind-icon">Abstract<wbr>Subject</a>
 					</li>
 					<li class=" tsd-kind-class tsd-has-type-parameter tsd-is-external">
 						<a href="classes/arraylist.html" class="tsd-kind-icon">Array<wbr>List</a>
@@ -956,14 +1092,14 @@
 					<li class=" tsd-kind-class tsd-has-type-parameter tsd-is-external">
 						<a href="classes/sequenceproxy.html" class="tsd-kind-icon">Sequence<wbr>Proxy</a>
 					</li>
+					<li class=" tsd-kind-class tsd-has-type-parameter tsd-is-external">
+						<a href="classes/store.html" class="tsd-kind-icon">Store</a>
+					</li>
 					<li class=" tsd-kind-class tsd-is-external">
 						<a href="classes/strictequalitycomparator.html" class="tsd-kind-icon">Strict<wbr>Equality<wbr>Comparator</a>
 					</li>
 					<li class=" tsd-kind-class tsd-is-external">
 						<a href="classes/stringbuilder.html" class="tsd-kind-icon">String<wbr>Builder</a>
-					</li>
-					<li class=" tsd-kind-class tsd-is-external">
-						<a href="classes/stringpool.html" class="tsd-kind-icon">String<wbr>Pool</a>
 					</li>
 					<li class=" tsd-kind-class tsd-is-external">
 						<a href="classes/stringutils.html" class="tsd-kind-icon">String<wbr>Utils</a>
@@ -976,6 +1112,9 @@
 					</li>
 					<li class=" tsd-kind-class tsd-is-external">
 						<a href="classes/treenode.html" class="tsd-kind-icon">Tree<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class tsd-is-external">
+						<a href="classes/unknownactionexception.html" class="tsd-kind-icon">Unknown<wbr>Action<wbr>Exception</a>
 					</li>
 					<li class=" tsd-kind-class tsd-is-external">
 						<a href="classes/uri.html" class="tsd-kind-icon">Uri</a>
@@ -1012,6 +1151,9 @@
 					</li>
 					<li class=" tsd-kind-class tsd-is-external">
 						<a href="classes/versionformatexception.html" class="tsd-kind-icon">Version<wbr>Format<wbr>Exception</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-is-external">
+						<a href="interfaces/action.html" class="tsd-kind-icon">Action</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-is-external">
 						<a href="interfaces/attributeaccessor.html" class="tsd-kind-icon">Attribute<wbr>Accessor</a>
@@ -1165,6 +1307,33 @@
 					</li>
 					<li class=" tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 						<a href="index.html#type" class="tsd-kind-icon">Type</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-external">
+						<a href="index.html#comma" class="tsd-kind-icon">COMMA</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-external">
+						<a href="index.html#empty_string" class="tsd-kind-icon">EMPTY_<wbr>STRING</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-external">
+						<a href="index.html#eol_cr" class="tsd-kind-icon">EOL_<wbr>CR</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-external">
+						<a href="index.html#eol_crlf" class="tsd-kind-icon">EOL_<wbr>CRLF</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-external">
+						<a href="index.html#eol_lf" class="tsd-kind-icon">EOL_<wbr>LF</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-external">
+						<a href="index.html#period" class="tsd-kind-icon">PERIOD</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-external">
+						<a href="index.html#space" class="tsd-kind-icon">SPACE</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-external">
+						<a href="index.html#tab" class="tsd-kind-icon">TAB</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-external">
+						<a href="index.html#noop" class="tsd-kind-icon">noop</a>
 					</li>
 					<li class=" tsd-kind-function tsd-is-external">
 						<a href="index.html#range" class="tsd-kind-icon">range</a>
