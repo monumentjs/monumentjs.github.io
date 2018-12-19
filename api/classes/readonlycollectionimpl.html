@@ -141,7 +141,6 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-external"><a href="readonlycollectionimpl.html#map" class="tsd-kind-icon">map</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="readonlycollectionimpl.html#max" class="tsd-kind-icon">max</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="readonlycollectionimpl.html#min" class="tsd-kind-icon">min</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="readonlycollectionimpl.html#onchange" class="tsd-kind-icon">on<wbr>Change</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-external"><a href="readonlycollectionimpl.html#orderby" class="tsd-kind-icon">order<wbr>By</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="readonlycollectionimpl.html#random" class="tsd-kind-icon">random</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-external"><a href="readonlycollectionimpl.html#reverse" class="tsd-kind-icon">reverse</a></li>
@@ -167,19 +166,22 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Read<wbr>Only<wbr>Collection<wbr>Impl<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="readonlycollectionimpl.html" class="tsd-signature-type">ReadOnlyCollectionImpl</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Read<wbr>Only<wbr>Collection<wbr>Impl<span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, isStatic<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="readonlycollectionimpl.html" class="tsd-signature-type">ReadOnlyCollectionImpl</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L26">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L23">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:23</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>source: <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> isStatic: <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="readonlycollectionimpl.html" class="tsd-signature-type">ReadOnlyCollectionImpl</a></h4>
@@ -199,7 +201,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L42">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:42</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L39">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:39</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -216,7 +218,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L32">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L29">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:29</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -237,7 +239,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#___iterator">__@iterator</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L50">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:50</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L47">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:47</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -255,7 +257,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#aggregate">aggregate</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L54">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:54</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L51">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:51</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -288,7 +290,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#all">all</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L64">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:64</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L61">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:61</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -312,7 +314,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#any">any</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L82">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:82</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L75">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:75</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -336,7 +338,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#average">average</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L100">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:100</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L89">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:89</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -353,20 +355,23 @@
 					<a name="concat" class="tsd-anchor"></a>
 					<h3>concat</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">concat<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">concat<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, <span class="tsd-signature-symbol">...</span>others<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#concat">concat</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L108">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:108</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L97">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:97</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>otherList: <a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>others: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -385,7 +390,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#contains">contains</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L124">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:124</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L119">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:119</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -400,7 +405,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#contains">contains</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L126">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:126</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L121">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:121</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -428,7 +433,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#containsall">containsAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L138">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:138</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L133">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:133</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -443,7 +448,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#containsall">containsAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L140">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:140</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L135">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:135</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -470,7 +475,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#count">count</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L158">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:158</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L151">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:151</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -495,7 +500,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#distinct">distinct</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L173">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:173</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L166">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:166</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -509,7 +514,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#distinct">distinct</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L175">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:175</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L168">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:168</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -533,7 +538,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#entries">entries</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L196">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:196</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L189">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:189</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -552,7 +557,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#equals">equals</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L206">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:206</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L199">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:199</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -567,7 +572,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#equals">equals</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L208">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:208</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L201">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:201</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -595,7 +600,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#except">except</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L243">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:243</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L236">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:236</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -615,7 +620,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#except">except</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L248">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:248</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L241">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:241</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -641,19 +646,78 @@
 					<h3>find<wbr>All</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">find<wbr>All<span class="tsd-signature-symbol">(</span>predicate<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">find<wbr>All<span class="tsd-signature-symbol">(</span>predicate<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span>, limit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">find<wbr>All<span class="tsd-signature-symbol">(</span>predicate<span class="tsd-signature-symbol">: </span><a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span>, limit<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, offset<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#findall">findAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L274">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:274</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L271">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:271</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Calls predicate function on each item in sequence.
+									Returns new collection containing items for which predicate function returned <code>true</code>.</p>
+								</div>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>predicate: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#findall">findAll</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L277">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:277</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Calls predicate function on each item in sequence.
+									Returns new collection containing items for which predicate function returned <code>true</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>predicate: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5>limit: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#findall">findAll</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L283">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:283</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Calls predicate function on each item in sequence.
+									Returns new collection containing items for which predicate function returned <code>true</code>.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>predicate: <a href="../index.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5>limit: <span class="tsd-signature-type">number</span></h5>
+								</li>
+								<li>
+									<h5>offset: <span class="tsd-signature-type">number</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -672,7 +736,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#first">first</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L292">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:292</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L320">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:320</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -690,7 +754,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#first">first</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L293">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:293</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L321">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:321</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -717,7 +781,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#firstordefault">firstOrDefault</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L308">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:308</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L332">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:332</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -743,7 +807,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L316">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:316</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L340">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:340</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -758,7 +822,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L317">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:317</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L341">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:341</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -776,7 +840,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L318">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:318</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L342">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:342</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -808,7 +872,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L344">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:344</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L365">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:365</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -823,7 +887,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L345">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:345</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L366">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:366</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -841,7 +905,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L346">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:346</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L367">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:367</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -870,7 +934,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L374">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:374</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L395">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:395</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -895,7 +959,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#groupby">groupBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L392">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:392</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L409">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:409</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -916,7 +980,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#groupby">groupBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L393">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:393</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L410">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:410</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -950,7 +1014,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#intersect">intersect</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L421">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:421</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L438">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:438</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -965,7 +1029,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#intersect">intersect</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L422">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:422</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L439">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:439</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -993,7 +1057,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#join">join</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L438">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:438</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L455">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:455</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1029,7 +1093,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#join">join</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L445">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:445</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L462">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:462</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1078,7 +1142,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#last">last</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L480">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:480</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L497">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:497</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1096,7 +1160,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#last">last</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L482">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:482</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L499">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:499</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1123,7 +1187,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#lastordefault">lastOrDefault</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L499">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:499</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L513">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:513</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1147,7 +1211,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#map">map</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L507">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:507</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L521">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:521</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1177,7 +1241,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#max">max</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L523">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:523</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L533">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:533</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1201,7 +1265,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#min">min</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L539">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:539</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L549">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:549</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1211,29 +1275,6 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-external">
-					<a name="onchange" class="tsd-anchor"></a>
-					<h3>on<wbr>Change</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">on<wbr>Change<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L555">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:555</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>target: <span class="tsd-signature-type">object</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1249,7 +1290,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#orderby">orderBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L559">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:559</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L565">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:565</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1273,7 +1314,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#orderby">orderBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L560">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:560</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L566">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:566</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1309,7 +1350,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#random">random</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L574">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:574</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L580">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:580</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
@@ -1327,7 +1368,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#reverse">reverse</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L584">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:584</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L590">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:590</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1345,7 +1386,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#selectmany">selectMany</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L588">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:588</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L594">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:594</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1381,7 +1422,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#skip">skip</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L619">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:619</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L625">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:625</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1405,7 +1446,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#skipwhile">skipWhile</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L641">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:641</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L647">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:647</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1430,7 +1471,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#slice">slice</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L661">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:661</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L667">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:667</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1445,7 +1486,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#slice">slice</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L662">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:662</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L668">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:668</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1472,7 +1513,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#sum">sum</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L684">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:684</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L690">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:690</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1496,7 +1537,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#take">take</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L696">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:696</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L702">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:702</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1520,7 +1561,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#takewhile">takeWhile</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L716">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:716</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L722">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:722</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1544,7 +1585,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#toarray">toArray</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L732">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:732</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L738">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:738</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -1562,7 +1603,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#tojson">toJSON</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L736">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:736</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L742">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:742</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -1581,7 +1622,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#union">union</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L740">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:740</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L746">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:746</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1596,7 +1637,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#union">union</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L741">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:741</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L747">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:747</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1623,7 +1664,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/readonlycollection.html">ReadOnlyCollection</a>.<a href="../interfaces/readonlycollection.html#zip">zip</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7e48553/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L764">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:764</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/660dd93/packages/core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts#L770">core/src/collections/collection/readonly/ReadOnlyCollectionImpl.ts:770</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1754,9 +1795,6 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
 								<a href="readonlycollectionimpl.html#min" class="tsd-kind-icon">min</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-external">
-								<a href="readonlycollectionimpl.html#onchange" class="tsd-kind-icon">on<wbr>Change</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-external">
 								<a href="readonlycollectionimpl.html#orderby" class="tsd-kind-icon">order<wbr>By</a>
