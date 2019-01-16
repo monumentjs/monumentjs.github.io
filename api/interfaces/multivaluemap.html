@@ -103,7 +103,6 @@
 			<section class="tsd-panel">
 				<h3>Implemented by</h3>
 				<ul class="tsd-hierarchy">
-					<li><a href="../classes/caseinsensitivemultivaluemap.html" class="tsd-signature-type">CaseInsensitiveMultiValueMap</a></li>
 					<li><a href="../classes/linkedmultivaluemap.html" class="tsd-signature-type">LinkedMultiValueMap</a></li>
 					<li><a href="../classes/queryparameters.html" class="tsd-signature-type">QueryParameters</a></li>
 				</ul>
@@ -116,11 +115,10 @@
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#isempty" class="tsd-kind-icon">is<wbr>Empty</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#keycomparator" class="tsd-kind-icon">key<wbr>Comparator</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#keys" class="tsd-kind-icon">keys</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#length" class="tsd-kind-icon">length</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#valuecomparator" class="tsd-kind-icon">value<wbr>Comparator</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#values" class="tsd-kind-icon">values</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#valuescount" class="tsd-kind-icon">values<wbr>Count</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-external">
@@ -142,14 +140,12 @@
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#put" class="tsd-kind-icon">put</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#putall" class="tsd-kind-icon">put<wbr>All</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#putifabsent" class="tsd-kind-icon">put<wbr>IfAbsent</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#putmap" class="tsd-kind-icon">put<wbr>Map</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#putvalues" class="tsd-kind-icon">put<wbr>Values</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#remove" class="tsd-kind-icon">remove</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#removeby" class="tsd-kind-icon">remove<wbr>By</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#removeif" class="tsd-kind-icon">remove<wbr>If</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-external"><a href="multivaluemap.html#replaceif" class="tsd-kind-icon">replace<wbr>If</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#toarray" class="tsd-kind-icon">to<wbr>Array</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#tojson" class="tsd-kind-icon">toJSON</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external"><a href="multivaluemap.html#tosinglevaluemap" class="tsd-kind-icon">to<wbr>Single<wbr>Value<wbr>Map</a></li>
 							</ul>
 						</section>
@@ -165,29 +161,18 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#isempty">isEmpty</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L22">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:22</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-					<a name="keycomparator" class="tsd-anchor"></a>
-					<h3>key<wbr>Comparator</h3>
-					<div class="tsd-signature tsd-kind-icon">key<wbr>Comparator<span class="tsd-signature-symbol">:</span> <a href="equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></div>
-					<aside class="tsd-sources">
-						<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#keycomparator">keyComparator</a></p>
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L25">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:25</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L18">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:18</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 					<a name="keys" class="tsd-anchor"></a>
 					<h3>keys</h3>
-					<div class="tsd-signature tsd-kind-icon">keys<span class="tsd-signature-symbol">:</span> <a href="readonlyset.html" class="tsd-signature-type">ReadOnlySet</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">keys<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#keys">keys</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L23">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:23</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L19">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:19</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -198,29 +183,29 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="sequence.html">Sequence</a>.<a href="sequence.html#length">length</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/base/Sequence.ts#L8">core/src/collections/base/Sequence.ts:8</a></li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-					<a name="valuecomparator" class="tsd-anchor"></a>
-					<h3>value<wbr>Comparator</h3>
-					<div class="tsd-signature tsd-kind-icon">value<wbr>Comparator<span class="tsd-signature-symbol">:</span> <a href="equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></div>
-					<aside class="tsd-sources">
-						<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#valuecomparator">valueComparator</a></p>
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L26">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:26</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/base/Sequence.ts#L7">core/src/collections/base/Sequence.ts:7</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 					<a name="values" class="tsd-anchor"></a>
 					<h3>values</h3>
-					<div class="tsd-signature tsd-kind-icon">values<span class="tsd-signature-symbol">:</span> <a href="readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">values<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#values">values</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L24">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:24</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L20">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:20</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
+					<a name="valuescount" class="tsd-anchor"></a>
+					<h3>values<wbr>Count</h3>
+					<div class="tsd-signature tsd-kind-icon">values<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#valuescount">valuesCount</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L21">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:21</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -231,17 +216,17 @@
 					<a name="___iterator" class="tsd-anchor"></a>
 					<h3>__@iterator</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">__@iterator<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterator</span><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">__@iterator<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterator</span><span class="tsd-signature-symbol">&lt;</span><a href="../index.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from Iterable.[Symbol.iterator]</p>
 								<ul>
-									<li>Defined in /Users/travis/build/monumentjs/core/node_modules/typedoc/node_modules/typescript/lib/lib.es2015.iterable.d.ts:43</li>
+									<li>Defined in /home/travis/build/monumentjs/core/node_modules/typescript/lib/lib.es2015.iterable.d.ts:43</li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterator</span><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterator</span><span class="tsd-signature-symbol">&lt;</span><a href="../index.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -255,7 +240,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L14">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:14</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L10">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:10</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -266,20 +251,20 @@
 					<a name="containsentries" class="tsd-anchor"></a>
 					<h3>contains<wbr>Entries</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">contains<wbr>Entries<span class="tsd-signature-symbol">(</span>entries<span class="tsd-signature-symbol">: </span><a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">contains<wbr>Entries<span class="tsd-signature-symbol">(</span>entries<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><a href="../index.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#containsentries">containsEntries</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L28">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:28</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L23">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:23</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>entries: <a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>entries: <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><a href="../index.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -297,7 +282,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#containsentry">containsEntry</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L30">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:30</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L25">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:25</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -324,7 +309,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#containskey">containsKey</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L32">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L27">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:27</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -341,20 +326,20 @@
 					<a name="containskeys" class="tsd-anchor"></a>
 					<h3>contains<wbr>Keys</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">contains<wbr>Keys<span class="tsd-signature-symbol">(</span>keys<span class="tsd-signature-symbol">: </span><a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">contains<wbr>Keys<span class="tsd-signature-symbol">(</span>keys<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#containskeys">containsKeys</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L34">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:34</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L29">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:29</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>keys: <a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>keys: <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -372,7 +357,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#containsvalue">containsValue</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L36">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:36</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L31">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:31</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -389,20 +374,20 @@
 					<a name="containsvalues" class="tsd-anchor"></a>
 					<h3>contains<wbr>Values</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">contains<wbr>Values<span class="tsd-signature-symbol">(</span>values<span class="tsd-signature-symbol">: </span><a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">contains<wbr>Values<span class="tsd-signature-symbol">(</span>values<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#containsvalues">containsValues</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L38">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:38</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L33">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:33</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>values: <a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>values: <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -413,20 +398,20 @@
 					<a name="equals" class="tsd-anchor"></a>
 					<h3>equals</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>other<span class="tsd-signature-symbol">: </span><a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">equals<span class="tsd-signature-symbol">(</span>other<span class="tsd-signature-symbol">: </span><a href="readonlymultivaluemap.html" class="tsd-signature-type">ReadOnlyMultiValueMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="equatable.html">Equatable</a>.<a href="equatable.html#equals">equals</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/comparison/equality/Equatable.ts#L7">core/src/comparison/equality/Equatable.ts:7</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/comparison/equality/Equatable.ts#L6">core/src/comparison/equality/Equatable.ts:6</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>other: <a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>other: <a href="readonlymultivaluemap.html" class="tsd-signature-type">ReadOnlyMultiValueMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -437,14 +422,14 @@
 					<a name="get" class="tsd-anchor"></a>
 					<h3>get</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">get<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#get">get</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L40">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:40</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L35">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:35</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -453,7 +438,7 @@
 									<h5>key: <span class="tsd-signature-type">K</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -462,14 +447,14 @@
 					<h3>get<wbr>First</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">get<wbr>First<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
-						<li class="tsd-signature tsd-kind-icon">get<wbr>First<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, defaultValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">V</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>First<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, fallback<span class="tsd-signature-symbol">: </span><a href="../index.html#supplier" class="tsd-signature-type">Supplier</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">V</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#getfirst">getFirst</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L42">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:42</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L37">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:37</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -487,7 +472,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#getfirst">getFirst</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L44">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:44</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L39">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:39</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -496,7 +481,7 @@
 									<h5>key: <span class="tsd-signature-type">K</span></h5>
 								</li>
 								<li>
-									<h5>defaultValue: <span class="tsd-signature-type">V</span></h5>
+									<h5>fallback: <a href="../index.html#supplier" class="tsd-signature-type">Supplier</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">V</span></h4>
@@ -514,7 +499,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#keyof">keyOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L46">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:46</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L41">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:41</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -534,14 +519,14 @@
 					<a name="keysof" class="tsd-anchor"></a>
 					<h3>keys<wbr>Of</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">keys<wbr>Of<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">keys<wbr>Of<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#keysof">keysOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L48">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:48</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L43">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:43</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -550,7 +535,7 @@
 									<h5>value: <span class="tsd-signature-type">V</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -564,7 +549,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L16">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:16</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L12">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:12</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -584,19 +569,19 @@
 					<a name="putall" class="tsd-anchor"></a>
 					<h3>put<wbr>All</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">put<wbr>All<span class="tsd-signature-symbol">(</span>entries<span class="tsd-signature-symbol">: </span><a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">put<wbr>All<span class="tsd-signature-symbol">(</span>entries<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><a href="../index.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L18">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:18</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L14">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:14</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>entries: <a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>entries: <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><a href="../index.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -613,7 +598,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L20">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:20</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L16">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:16</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -630,39 +615,16 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-external">
-					<a name="putmap" class="tsd-anchor"></a>
-					<h3>put<wbr>Map</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">put<wbr>Map<span class="tsd-signature-symbol">(</span>map<span class="tsd-signature-symbol">: </span><a href="readonlymap.html" class="tsd-signature-type">ReadOnlyMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L22">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:22</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>map: <a href="readonlymap.html" class="tsd-signature-type">ReadOnlyMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-external">
 					<a name="putvalues" class="tsd-anchor"></a>
 					<h3>put<wbr>Values</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">put<wbr>Values<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, values<span class="tsd-signature-symbol">: </span><a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">put<wbr>Values<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, values<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L24">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:24</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L18">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:18</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -671,7 +633,7 @@
 									<h5>key: <span class="tsd-signature-type">K</span></h5>
 								</li>
 								<li>
-									<h5>values: <a href="sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>values: <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -682,13 +644,13 @@
 					<a name="remove" class="tsd-anchor"></a>
 					<h3>remove</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">remove<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+						<li class="tsd-signature tsd-kind-icon">remove<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L26">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L20">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:20</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -697,7 +659,7 @@
 									<h5>key: <span class="tsd-signature-type">K</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span>
 								<span class="tsd-signature-symbol"> | </span>
 								<span class="tsd-signature-type">undefined</span>
 							</h4>
@@ -714,7 +676,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L28">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:28</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L22">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:22</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -737,7 +699,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L30">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:30</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L24">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:24</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -763,7 +725,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L32">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/mutable/MultiValueMap.ts#L26">core/src/collections/multivaluemap/mutable/MultiValueMap.ts:26</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -786,35 +748,17 @@
 					<a name="toarray" class="tsd-anchor"></a>
 					<h3>to<wbr>Array</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">to<wbr>Array<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">to<wbr>Array<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../index.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="toarray.html">ToArray</a>.<a href="toarray.html#toarray-1">toArray</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/base/ToArray.ts#L8">core/src/collections/base/ToArray.ts:8</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/base/ToArray.ts#L6">core/src/collections/base/ToArray.ts:6</a></li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-					<a name="tojson" class="tsd-anchor"></a>
-					<h3>toJSON</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">toJSON<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Inherited from <a href="tojson.html">ToJSON</a>.<a href="tojson.html#tojson-1">toJSON</a></p>
-								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/base/ToJSON.ts#L8">core/src/base/ToJSON.ts:8</a></li>
-								</ul>
-							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../classes/keyvaluepair.html" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="../index.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -829,7 +773,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlymultivaluemap.html">ReadOnlyMultiValueMap</a>.<a href="readonlymultivaluemap.html#tosinglevaluemap">toSingleValueMap</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3f7cecd/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L50">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:50</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/14fe389/packages/core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts#L45">core/src/collections/multivaluemap/readonly/ReadOnlyMultiValueMap.ts:45</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="readonlymap.html" class="tsd-signature-type">ReadOnlyMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -857,19 +801,16 @@
 								<a href="multivaluemap.html#isempty" class="tsd-kind-icon">is<wbr>Empty</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-								<a href="multivaluemap.html#keycomparator" class="tsd-kind-icon">key<wbr>Comparator</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="multivaluemap.html#keys" class="tsd-kind-icon">keys</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="multivaluemap.html#length" class="tsd-kind-icon">length</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-								<a href="multivaluemap.html#valuecomparator" class="tsd-kind-icon">value<wbr>Comparator</a>
+								<a href="multivaluemap.html#values" class="tsd-kind-icon">values</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-								<a href="multivaluemap.html#values" class="tsd-kind-icon">values</a>
+								<a href="multivaluemap.html#valuescount" class="tsd-kind-icon">values<wbr>Count</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="multivaluemap.html#___iterator" class="tsd-kind-icon">__@iterator</a>
@@ -920,9 +861,6 @@
 								<a href="multivaluemap.html#putifabsent" class="tsd-kind-icon">put<wbr>IfAbsent</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-external">
-								<a href="multivaluemap.html#putmap" class="tsd-kind-icon">put<wbr>Map</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-external">
 								<a href="multivaluemap.html#putvalues" class="tsd-kind-icon">put<wbr>Values</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-external">
@@ -939,9 +877,6 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="multivaluemap.html#toarray" class="tsd-kind-icon">to<wbr>Array</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
-								<a href="multivaluemap.html#tojson" class="tsd-kind-icon">toJSON</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-is-inherited tsd-is-external">
 								<a href="multivaluemap.html#tosinglevaluemap" class="tsd-kind-icon">to<wbr>Single<wbr>Value<wbr>Map</a>
