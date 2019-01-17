@@ -180,7 +180,7 @@
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/comparable.html" class="tsd-kind-icon">Comparable</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/comparator.html" class="tsd-kind-icon">Comparator</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/disposable.html" class="tsd-kind-icon">Disposable</a></li>
-								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/effects.html" class="tsd-kind-icon">Effects</a></li>
+								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/effect.html" class="tsd-kind-icon">Effect</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/equalitycomparator.html" class="tsd-kind-icon">Equality<wbr>Comparator</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/equatable.html" class="tsd-kind-icon">Equatable</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/eventsource.html" class="tsd-kind-icon">Event<wbr>Source</a></li>
@@ -222,6 +222,7 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="index.html#aggregatefunction" class="tsd-kind-icon">Aggregate<wbr>Function</a></li>
 								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="index.html#combinefunction" class="tsd-kind-icon">Combine<wbr>Function</a></li>
+								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="index.html#effectresult" class="tsd-kind-icon">Effect<wbr>Result</a></li>
 								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="index.html#eventhandler" class="tsd-kind-icon">Event<wbr>Handler</a></li>
 								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="index.html#iteratorfunction" class="tsd-kind-icon">Iterator<wbr>Function</a></li>
 								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="index.html#keyvaluepair" class="tsd-kind-icon">Key<wbr>Value<wbr>Pair</a></li>
@@ -282,7 +283,7 @@
 					<div class="tsd-signature tsd-kind-icon">Aggregate<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/collections/collection/readonly/ReadOnlyCollection.ts#L14">core/src/collections/collection/readonly/ReadOnlyCollection.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/collections/collection/readonly/ReadOnlyCollection.ts#L14">core/src/collections/collection/readonly/ReadOnlyCollection.ts:14</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -329,7 +330,7 @@
 					<div class="tsd-signature tsd-kind-icon">Combine<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/collections/collection/readonly/ReadOnlyCollection.ts#L26">core/src/collections/collection/readonly/ReadOnlyCollection.ts:26</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/collections/collection/readonly/ReadOnlyCollection.ts#L26">core/src/collections/collection/readonly/ReadOnlyCollection.ts:26</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -368,12 +369,22 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
+					<a name="effectresult" class="tsd-anchor"></a>
+					<h3>Effect<wbr>Result</h3>
+					<div class="tsd-signature tsd-kind-icon">Effect<wbr>Result<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><a href="classes/observable.html" class="tsd-signature-type">Observable</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/store/EffectResult.ts#L4">reactive/src/store/EffectResult.ts:4</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="eventhandler" class="tsd-anchor"></a>
 					<h3>Event<wbr>Handler</h3>
 					<div class="tsd-signature tsd-kind-icon">Event<wbr>Handler<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/events/EventHandler.ts#L7">core/src/events/EventHandler.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/events/EventHandler.ts#L7">core/src/events/EventHandler.ts:7</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -414,7 +425,7 @@
 					<div class="tsd-signature tsd-kind-icon">Iterator<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/collections/collection/readonly/ReadOnlyCollection.ts#L20">core/src/collections/collection/readonly/ReadOnlyCollection.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/collections/collection/readonly/ReadOnlyCollection.ts#L20">core/src/collections/collection/readonly/ReadOnlyCollection.ts:20</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -458,7 +469,7 @@
 					<div class="tsd-signature tsd-kind-icon">Key<wbr>Value<wbr>Pair<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/collections/base/KeyValuePair.ts#L5">core/src/collections/base/KeyValuePair.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/collections/base/KeyValuePair.ts#L5">core/src/collections/base/KeyValuePair.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -478,7 +489,7 @@
 					<div class="tsd-signature tsd-kind-icon">Map<wbr>Iterator<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/collections/base/MapIteratorFunction.ts#L5">core/src/collections/base/MapIteratorFunction.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/collections/base/MapIteratorFunction.ts#L5">core/src/collections/base/MapIteratorFunction.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -522,7 +533,7 @@
 					<div class="tsd-signature tsd-kind-icon">On<wbr>Complete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Subscribable.ts#L8">reactive/src/base/Subscribable.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Subscribable.ts#L8">reactive/src/base/Subscribable.ts:8</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -547,7 +558,7 @@
 					<div class="tsd-signature tsd-kind-icon">On<wbr>Error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Subscribable.ts#L6">reactive/src/base/Subscribable.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Subscribable.ts#L6">reactive/src/base/Subscribable.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -578,7 +589,7 @@
 					<div class="tsd-signature tsd-kind-icon">On<wbr>Next<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Subscribable.ts#L4">reactive/src/base/Subscribable.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Subscribable.ts#L4">reactive/src/base/Subscribable.ts:4</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -609,7 +620,7 @@
 					<div class="tsd-signature tsd-kind-icon">Operator<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Observable.ts#L10">reactive/src/base/Observable.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Observable.ts#L10">reactive/src/base/Observable.ts:10</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -640,7 +651,7 @@
 					<div class="tsd-signature tsd-kind-icon">Selector<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/collections/collection/readonly/ReadOnlyCollection.ts#L32">core/src/collections/collection/readonly/ReadOnlyCollection.ts:32</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/collections/collection/readonly/ReadOnlyCollection.ts#L32">core/src/collections/collection/readonly/ReadOnlyCollection.ts:32</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -681,7 +692,7 @@
 					<div class="tsd-signature tsd-kind-icon">Subscription<wbr>Producer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/SubscriptionProducer.ts#L4">reactive/src/base/SubscriptionProducer.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/SubscriptionProducer.ts#L4">reactive/src/base/SubscriptionProducer.ts:4</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -715,7 +726,7 @@
 					<div class="tsd-signature tsd-kind-icon">Subscription<wbr>Teardown<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/SubscriptionTeardown.ts#L2">reactive/src/base/SubscriptionTeardown.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/SubscriptionTeardown.ts#L2">reactive/src/base/SubscriptionTeardown.ts:2</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -740,7 +751,7 @@
 					<div class="tsd-signature tsd-kind-icon">Subscription<wbr>Teardown<wbr>Logic<span class="tsd-signature-symbol">:</span> <a href="index.html#subscriptionteardown" class="tsd-signature-type">SubscriptionTeardown</a><span class="tsd-signature-symbol"> | </span><a href="interfaces/unsubscribable.html" class="tsd-signature-type">Unsubscribable</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/SubscriptionTeardownLogic.ts#L4">reactive/src/base/SubscriptionTeardownLogic.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/SubscriptionTeardownLogic.ts#L4">reactive/src/base/SubscriptionTeardownLogic.ts:4</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -750,7 +761,7 @@
 					<div class="tsd-signature tsd-kind-icon">Supplier<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/base/Supplier.ts#L6">core/src/base/Supplier.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/base/Supplier.ts#L6">core/src/base/Supplier.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -785,7 +796,7 @@
 					<div class="tsd-signature tsd-kind-icon">Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/base/Type.ts#L6">core/src/base/Type.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/base/Type.ts#L6">core/src/base/Type.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -813,7 +824,7 @@
 					<div class="tsd-signature tsd-kind-icon">COMMA<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">","</span><span class="tsd-signature-symbol"> =&nbsp;&quot;,&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/text/Strings.ts#L7">core/src/text/Strings.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/text/Strings.ts#L7">core/src/text/Strings.ts:7</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -823,7 +834,7 @@
 					<div class="tsd-signature tsd-kind-icon">EMPTY_<wbr>STRING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;&quot;</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/text/Strings.ts#L5">core/src/text/Strings.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/text/Strings.ts#L5">core/src/text/Strings.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -845,7 +856,7 @@
 					&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/text/Strings.ts#L11">core/src/text/Strings.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/text/Strings.ts#L11">core/src/text/Strings.ts:11</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -855,7 +866,7 @@
 					<div class="tsd-signature tsd-kind-icon">EOL_<wbr>CRLF<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">""</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/text/Strings.ts#L10">core/src/text/Strings.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/text/Strings.ts#L10">core/src/text/Strings.ts:10</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -865,7 +876,7 @@
 					<div class="tsd-signature tsd-kind-icon">EOL_<wbr>LF<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">""</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/text/Strings.ts#L12">core/src/text/Strings.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/text/Strings.ts#L12">core/src/text/Strings.ts:12</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -875,7 +886,7 @@
 					<div class="tsd-signature tsd-kind-icon">PERIOD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"."</span><span class="tsd-signature-symbol"> =&nbsp;&quot;.&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/text/Strings.ts#L8">core/src/text/Strings.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/text/Strings.ts#L8">core/src/text/Strings.ts:8</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -885,7 +896,7 @@
 					<div class="tsd-signature tsd-kind-icon">SPACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">" "</span><span class="tsd-signature-symbol"> =&nbsp;&quot; &quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/text/Strings.ts#L6">core/src/text/Strings.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/text/Strings.ts#L6">core/src/text/Strings.ts:6</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -895,7 +906,7 @@
 					<div class="tsd-signature tsd-kind-icon">TAB<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"	"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;	&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/text/Strings.ts#L9">core/src/text/Strings.ts:9</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/text/Strings.ts#L9">core/src/text/Strings.ts:9</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -912,7 +923,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/transformation/async.ts#L5">reactive/src/operators/transformation/async.ts:5</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/transformation/async.ts#L5">reactive/src/operators/transformation/async.ts:5</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -935,7 +946,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/filtering/distinct.ts#L6">reactive/src/operators/filtering/distinct.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/filtering/distinct.ts#L6">reactive/src/operators/filtering/distinct.ts:6</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -964,7 +975,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/conditional/fallback.ts#L7">reactive/src/operators/conditional/fallback.ts:7</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/conditional/fallback.ts#L7">reactive/src/operators/conditional/fallback.ts:7</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -993,7 +1004,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/filtering/filter.ts#L5">reactive/src/operators/filtering/filter.ts:5</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/filtering/filter.ts#L5">reactive/src/operators/filtering/filter.ts:5</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1040,7 +1051,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/function/isEven.ts#L1">core/src/function/isEven.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/function/isEven.ts#L1">core/src/function/isEven.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1063,7 +1074,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/function/isOdd.ts#L1">core/src/function/isOdd.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/function/isOdd.ts#L1">core/src/function/isOdd.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1086,7 +1097,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/transformation/map.ts#L5">reactive/src/operators/transformation/map.ts:5</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/transformation/map.ts#L5">reactive/src/operators/transformation/map.ts:5</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1136,7 +1147,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/transformation/mapTo.ts#L5">reactive/src/operators/transformation/mapTo.ts:5</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/transformation/mapTo.ts#L5">reactive/src/operators/transformation/mapTo.ts:5</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1168,7 +1179,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/function/noop.ts#L1">core/src/function/noop.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/function/noop.ts#L1">core/src/function/noop.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1185,7 +1196,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/function/range.ts#L4">core/src/function/range.ts:4</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/function/range.ts#L4">core/src/function/range.ts:4</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1214,7 +1225,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/function/sleep.ts#L2">core/src/function/sleep.ts:2</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/function/sleep.ts#L2">core/src/function/sleep.ts:2</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1237,7 +1248,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/filtering/take.ts#L6">reactive/src/operators/filtering/take.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/filtering/take.ts#L6">reactive/src/operators/filtering/take.ts:6</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1266,7 +1277,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/filtering/takeUntil.ts#L6">reactive/src/operators/filtering/takeUntil.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/filtering/takeUntil.ts#L6">reactive/src/operators/filtering/takeUntil.ts:6</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1295,7 +1306,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/operators/filtering/takeWhile.ts#L6">reactive/src/operators/filtering/takeWhile.ts:6</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/operators/filtering/takeWhile.ts#L6">reactive/src/operators/filtering/takeWhile.ts:6</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1342,7 +1353,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/core/src/function/times.ts#L3">core/src/function/times.ts:3</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/core/src/function/times.ts#L3">core/src/function/times.ts:3</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1683,7 +1694,7 @@
 						<a href="interfaces/disposable.html" class="tsd-kind-icon">Disposable</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter tsd-is-external">
-						<a href="interfaces/effects.html" class="tsd-kind-icon">Effects</a>
+						<a href="interfaces/effect.html" class="tsd-kind-icon">Effect</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter tsd-is-external">
 						<a href="interfaces/equalitycomparator.html" class="tsd-kind-icon">Equality<wbr>Comparator</a>
@@ -1792,6 +1803,9 @@
 					</li>
 					<li class=" tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 						<a href="index.html#combinefunction" class="tsd-kind-icon">Combine<wbr>Function</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
+						<a href="index.html#effectresult" class="tsd-kind-icon">Effect<wbr>Result</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 						<a href="index.html#eventhandler" class="tsd-kind-icon">Event<wbr>Handler</a>

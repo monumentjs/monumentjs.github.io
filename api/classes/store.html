@@ -145,14 +145,14 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagProtected">Protected</span> constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite tsd-is-protected tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Store<span class="tsd-signature-symbol">(</span>initialState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TState</span>, actions<span class="tsd-signature-symbol">: </span><a href="actions.html" class="tsd-signature-type">Actions</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">&gt;</span>, effects<span class="tsd-signature-symbol">?: </span><a href="../interfaces/effects.html" class="tsd-signature-type">Effects</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="store.html" class="tsd-signature-type">Store</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Store<span class="tsd-signature-symbol">(</span>initialState<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TState</span>, actions<span class="tsd-signature-symbol">: </span><a href="actions.html" class="tsd-signature-type">Actions</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">&gt;</span>, <span class="tsd-signature-symbol">...</span>effects<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/effect.html" class="tsd-signature-type">Effect</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="store.html" class="tsd-signature-type">Store</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Overrides <a href="behaviorsubject.html">BehaviorSubject</a>.<a href="behaviorsubject.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/store/Store.ts#L10">reactive/src/store/Store.ts:10</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/store/Store.ts#L12">reactive/src/store/Store.ts:12</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -164,7 +164,7 @@
 									<h5>actions: <a href="actions.html" class="tsd-signature-type">Actions</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> effects: <a href="../interfaces/effects.html" class="tsd-signature-type">Effects</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>effects: <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/effect.html" class="tsd-signature-type">Effect</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TAction</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="store.html" class="tsd-signature-type">Store</a></h4>
@@ -185,7 +185,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="observable.html">Observable</a>.<a href="observable.html#observers">observers</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Observable.ts#L20">reactive/src/base/Observable.ts:20</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Observable.ts#L20">reactive/src/base/Observable.ts:20</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/observer.html" class="tsd-signature-type">Observer</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TState</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -203,7 +203,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="observable.html">Observable</a>.<a href="observable.html#observerscount">observersCount</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Observable.ts#L24">reactive/src/base/Observable.ts:24</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Observable.ts#L24">reactive/src/base/Observable.ts:24</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -221,7 +221,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="behaviorsubject.html">BehaviorSubject</a>.<a href="behaviorsubject.html#value">value</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/BehaviorSubject.ts#L11">reactive/src/base/BehaviorSubject.ts:11</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/BehaviorSubject.ts#L11">reactive/src/base/BehaviorSubject.ts:11</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">TState</span></h4>
@@ -243,7 +243,7 @@
 								<p>Implementation of <a href="../interfaces/observer.html">Observer</a>.<a href="../interfaces/observer.html#complete">complete</a></p>
 								<p>Inherited from <a href="subject.html">Subject</a>.<a href="subject.html#complete">complete</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Subject.ts#L18">reactive/src/base/Subject.ts:18</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Subject.ts#L18">reactive/src/base/Subject.ts:18</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -262,7 +262,7 @@
 								<p>Implementation of <a href="../interfaces/observer.html">Observer</a>.<a href="../interfaces/observer.html#error">error</a></p>
 								<p>Inherited from <a href="subject.html">Subject</a>.<a href="subject.html#error">error</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Subject.ts#L24">reactive/src/base/Subject.ts:24</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Subject.ts#L24">reactive/src/base/Subject.ts:24</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -287,7 +287,7 @@
 								<p>Implementation of <a href="../interfaces/observer.html">Observer</a>.<a href="../interfaces/observer.html#next">next</a></p>
 								<p>Overrides <a href="behaviorsubject.html">BehaviorSubject</a>.<a href="behaviorsubject.html#next">next</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/store/Store.ts#L30">reactive/src/store/Store.ts:30</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/store/Store.ts#L29">reactive/src/store/Store.ts:29</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -311,7 +311,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="observable.html">Observable</a>.<a href="observable.html#pipe">pipe</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Observable.ts#L50">reactive/src/base/Observable.ts:50</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Observable.ts#L50">reactive/src/base/Observable.ts:50</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -340,7 +340,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/store/Store.ts#L36">reactive/src/store/Store.ts:36</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/store/Store.ts#L35">reactive/src/store/Store.ts:35</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -366,7 +366,7 @@
 								<p>Implementation of <a href="../interfaces/subscribable.html">Subscribable</a>.<a href="../interfaces/subscribable.html#subscribe">subscribe</a></p>
 								<p>Inherited from <a href="observable.html">Observable</a>.<a href="observable.html#subscribe">subscribe</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Observable.ts#L32">reactive/src/base/Observable.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Observable.ts#L32">reactive/src/base/Observable.ts:32</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -382,7 +382,7 @@
 								<p>Implementation of <a href="../interfaces/subscribable.html">Subscribable</a>.<a href="../interfaces/subscribable.html#subscribe">subscribe</a></p>
 								<p>Inherited from <a href="observable.html">Observable</a>.<a href="observable.html#subscribe">subscribe</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/c5cf3d6/packages/reactive/src/base/Observable.ts#L33">reactive/src/base/Observable.ts:33</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3cbc60f/packages/reactive/src/base/Observable.ts#L33">reactive/src/base/Observable.ts:33</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
