@@ -82,7 +82,6 @@
 								<li class="tsd-kind-class tsd-has-type-parameter tsd-is-external"><a href="classes/arraystack.html" class="tsd-kind-icon">Array<wbr>Stack</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/bitset.html" class="tsd-kind-icon">Bit<wbr>Set</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/booleanparser.html" class="tsd-kind-icon">Boolean<wbr>Parser</a></li>
-								<li class="tsd-kind-class tsd-is-external"><a href="classes/castexception.html" class="tsd-kind-icon">Cast<wbr>Exception</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/chainedequalitycomparator.html" class="tsd-kind-icon">Chained<wbr>Equality<wbr>Comparator</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/collectionutils.html" class="tsd-kind-icon">Collection<wbr>Utils</a></li>
 								<li class="tsd-kind-class tsd-is-external"><a href="classes/deepequalitycomparator.html" class="tsd-kind-icon">Deep<wbr>Equality<wbr>Comparator</a></li>
@@ -136,7 +135,6 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-interface tsd-is-external"><a href="interfaces/attributeaccessor.html" class="tsd-kind-icon">Attribute<wbr>Accessor</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/builder.html" class="tsd-kind-icon">Builder</a></li>
-								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/castsupport.html" class="tsd-kind-icon">Cast<wbr>Support</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/cloneable.html" class="tsd-kind-icon">Cloneable</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/comparable.html" class="tsd-kind-icon">Comparable</a></li>
 								<li class="tsd-kind-interface tsd-has-type-parameter tsd-is-external"><a href="interfaces/comparator.html" class="tsd-kind-icon">Comparator</a></li>
@@ -180,6 +178,7 @@
 								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="globals.html#projectfunction" class="tsd-kind-icon">Project<wbr>Function</a></li>
 								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="globals.html#supplyfunction" class="tsd-kind-icon">Supply<wbr>Function</a></li>
 								<li class="tsd-kind-type-alias tsd-has-type-parameter tsd-is-external"><a href="globals.html#type" class="tsd-kind-icon">Type</a></li>
+								<li class="tsd-kind-type-alias tsd-is-external"><a href="globals.html#typeofresult" class="tsd-kind-icon">Type<wbr>OfResult</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section tsd-is-external">
@@ -198,6 +197,7 @@
 						<section class="tsd-index-section tsd-is-external">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-is-external"><a href="globals.html#argument" class="tsd-kind-icon">argument</a></li>
 								<li class="tsd-kind-function tsd-has-type-parameter tsd-is-external"><a href="globals.html#identity" class="tsd-kind-icon">identity</a></li>
 								<li class="tsd-kind-function tsd-is-external"><a href="globals.html#iseven" class="tsd-kind-icon">is<wbr>Even</a></li>
 								<li class="tsd-kind-function tsd-is-external"><a href="globals.html#isfalsy" class="tsd-kind-icon">is<wbr>Falsy</a></li>
@@ -205,6 +205,7 @@
 								<li class="tsd-kind-function tsd-is-external"><a href="globals.html#noop" class="tsd-kind-icon">noop</a></li>
 								<li class="tsd-kind-function tsd-is-external"><a href="globals.html#sleep" class="tsd-kind-icon">sleep</a></li>
 								<li class="tsd-kind-function tsd-is-external"><a href="globals.html#times" class="tsd-kind-icon">times</a></li>
+								<li class="tsd-kind-function tsd-is-external"><a href="globals.html#typeof" class="tsd-kind-icon">type<wbr>Of</a></li>
 							</ul>
 						</section>
 					</div>
@@ -215,10 +216,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="aggregatefunction" class="tsd-anchor"></a>
 					<h3>Aggregate<wbr>Function</h3>
-					<div class="tsd-signature tsd-kind-icon">Aggregate<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">Aggregate<wbr>Function&lt;T, TAggregate&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/collections/function/AggregateFunction.ts#L5">src/collections/function/AggregateFunction.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/collections/function/AggregateFunction.ts#L5">src/collections/function/AggregateFunction.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -231,6 +232,15 @@
 							</dd>
 						</dl>
 					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>T</h4>
+						</li>
+						<li>
+							<h4>TAggregate</h4>
+						</li>
+					</ul>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
@@ -262,10 +272,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="combinefunction" class="tsd-anchor"></a>
 					<h3>Combine<wbr>Function</h3>
-					<div class="tsd-signature tsd-kind-icon">Combine<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">Combine<wbr>Function&lt;A, B, TResult&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/CombineFunction.ts#L5">src/function/CombineFunction.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/collections/function/CombineFunction.ts#L5">src/collections/function/CombineFunction.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -278,6 +288,18 @@
 							</dd>
 						</dl>
 					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>A</h4>
+						</li>
+						<li>
+							<h4>B</h4>
+						</li>
+						<li>
+							<h4>TResult</h4>
+						</li>
+					</ul>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
@@ -306,10 +328,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="iteratorfunction" class="tsd-anchor"></a>
 					<h3>Iterator<wbr>Function</h3>
-					<div class="tsd-signature tsd-kind-icon">Iterator<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">Iterator<wbr>Function&lt;T, TResult&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/collections/function/IteratorFunction.ts#L5">src/collections/function/IteratorFunction.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/collections/function/IteratorFunction.ts#L5">src/collections/function/IteratorFunction.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -322,6 +344,15 @@
 							</dd>
 						</dl>
 					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>T</h4>
+						</li>
+						<li>
+							<h4>TResult</h4>
+						</li>
+					</ul>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
@@ -350,10 +381,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="keyvaluepair" class="tsd-anchor"></a>
 					<h3>Key<wbr>Value<wbr>Pair</h3>
-					<div class="tsd-signature tsd-kind-icon">Key<wbr>Value<wbr>Pair<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">]</span></div>
+					<div class="tsd-signature tsd-kind-icon">Key<wbr>Value<wbr>Pair&lt;K, V&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol">]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/collections/base/KeyValuePair.ts#L5">src/collections/base/KeyValuePair.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/collections/base/KeyValuePair.ts#L5">src/collections/base/KeyValuePair.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -366,14 +397,23 @@
 							</dd>
 						</dl>
 					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>K</h4>
+						</li>
+						<li>
+							<h4>V</h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="mapiteratorfunction" class="tsd-anchor"></a>
 					<h3>Map<wbr>Iterator<wbr>Function</h3>
-					<div class="tsd-signature tsd-kind-icon">Map<wbr>Iterator<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">Map<wbr>Iterator<wbr>Function&lt;K, V, TResult&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/collections/base/MapIteratorFunction.ts#L5">src/collections/base/MapIteratorFunction.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/collections/base/MapIteratorFunction.ts#L5">src/collections/base/MapIteratorFunction.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -386,6 +426,18 @@
 							</dd>
 						</dl>
 					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>K</h4>
+						</li>
+						<li>
+							<h4>V</h4>
+						</li>
+						<li>
+							<h4>TResult</h4>
+						</li>
+					</ul>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
@@ -414,12 +466,31 @@
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="projectfunction" class="tsd-anchor"></a>
 					<h3>Project<wbr>Function</h3>
-					<div class="tsd-signature tsd-kind-icon">Project<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">Project<wbr>Function&lt;I, O&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/ProjectFunction.ts#L1">src/function/ProjectFunction.ts:1</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/collections/function/ProjectFunction.ts#L5">src/collections/function/ProjectFunction.ts:5</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+							<dt>since</dt>
+							<dd><p>0.0.1</p>
+							</dd>
+						</dl>
+					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>I</h4>
+						</li>
+						<li>
+							<h4>O</h4>
+						</li>
+					</ul>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
@@ -445,10 +516,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="supplyfunction" class="tsd-anchor"></a>
 					<h3>Supply<wbr>Function</h3>
-					<div class="tsd-signature tsd-kind-icon">Supply<wbr>Function<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
+					<div class="tsd-signature tsd-kind-icon">Supply<wbr>Function&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">function</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/SupplyFunction.ts#L6">src/function/SupplyFunction.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/SupplyFunction.ts#L6">src/function/SupplyFunction.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -461,6 +532,17 @@
 							</dd>
 						</dl>
 					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>T</h4>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>type of supplied value</p>
+								</div>
+							</div>
+						</li>
+					</ul>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
@@ -480,10 +562,10 @@
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 					<a name="type" class="tsd-anchor"></a>
 					<h3>Type</h3>
-					<div class="tsd-signature tsd-kind-icon">Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<div class="tsd-signature tsd-kind-icon">Type&lt;T&gt;<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/base/Type.ts#L6">src/base/Type.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/base/Type.ts#L6">src/base/Type.ts:6</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -496,10 +578,44 @@
 							</dd>
 						</dl>
 					</div>
+					<h4 class="tsd-type-parameters-title">Type parameters</h4>
+					<ul class="tsd-type-parameters">
+						<li>
+							<h4>T</h4>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>type of target object</p>
+								</div>
+							</div>
+						</li>
+					</ul>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
 						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-is-external">
+					<a name="typeofresult" class="tsd-anchor"></a>
+					<h3>Type<wbr>OfResult</h3>
+					<div class="tsd-signature tsd-kind-icon">Type<wbr>OfResult<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"string"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"boolean"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"number"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"object"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"undefined"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"symbol"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"bigint"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"function"</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/base/TypeOfResult.ts#L6">src/base/TypeOfResult.ts:6</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Result of <code>typeof</code> operator.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>0.13.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
 					</div>
 				</section>
 			</section>
@@ -511,7 +627,7 @@
 					<div class="tsd-signature tsd-kind-icon">COMMA<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">","</span><span class="tsd-signature-symbol"> =&nbsp;&quot;,&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/text/Strings.ts#L7">src/text/Strings.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/text/Strings.ts#L7">src/text/Strings.ts:7</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -521,7 +637,7 @@
 					<div class="tsd-signature tsd-kind-icon">EMPTY_<wbr>STRING<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">&quot;&quot;</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/text/Strings.ts#L5">src/text/Strings.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/text/Strings.ts#L5">src/text/Strings.ts:5</a></li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -543,7 +659,7 @@
 					&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/text/Strings.ts#L11">src/text/Strings.ts:11</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/text/Strings.ts#L11">src/text/Strings.ts:11</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -553,7 +669,7 @@
 					<div class="tsd-signature tsd-kind-icon">EOL_<wbr>CRLF<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">""</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/text/Strings.ts#L10">src/text/Strings.ts:10</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/text/Strings.ts#L10">src/text/Strings.ts:10</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -563,7 +679,7 @@
 					<div class="tsd-signature tsd-kind-icon">EOL_<wbr>LF<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">""</span><span class="tsd-signature-symbol"> =&nbsp;&quot;&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/text/Strings.ts#L12">src/text/Strings.ts:12</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/text/Strings.ts#L12">src/text/Strings.ts:12</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -573,7 +689,7 @@
 					<div class="tsd-signature tsd-kind-icon">PERIOD<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"."</span><span class="tsd-signature-symbol"> =&nbsp;&quot;.&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/text/Strings.ts#L8">src/text/Strings.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/text/Strings.ts#L8">src/text/Strings.ts:8</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -583,7 +699,7 @@
 					<div class="tsd-signature tsd-kind-icon">SPACE<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">" "</span><span class="tsd-signature-symbol"> =&nbsp;&quot; &quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/text/Strings.ts#L6">src/text/Strings.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/text/Strings.ts#L6">src/text/Strings.ts:6</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -593,13 +709,147 @@
 					<div class="tsd-signature tsd-kind-icon">TAB<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"	"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;	&quot;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/text/Strings.ts#L9">src/text/Strings.ts:9</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/text/Strings.ts#L9">src/text/Strings.ts:9</a></li>
 						</ul>
 					</aside>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
 				<h2>Functions</h2>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-is-external">
+					<a name="argument" class="tsd-anchor"></a>
+					<h3>argument</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">argument<span class="tsd-signature-symbol">(</span>expression<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">never</span></li>
+						<li class="tsd-signature tsd-kind-icon">argument<span class="tsd-signature-symbol">(</span>expression<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">never</span></li>
+						<li class="tsd-signature tsd-kind-icon">argument<span class="tsd-signature-symbol">(</span>expression<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span>, message<span class="tsd-signature-symbol">: </span><a href="globals.html#supplyfunction" class="tsd-signature-type">SupplyFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">never</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/contract/argument.ts#L12">src/contract/argument.ts:12</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Tests expression resolves to <code>true</code>.
+									If it resolves to <code>false</code>, then throws <a href="classes/invalidargumentexception.html">InvalidArgumentException</a>.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p>{InvalidArgumentException} if expression resolves to <code>false</code></p>
+									</dd>
+									<dt>since</dt>
+									<dd><p>1.1.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>expression: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Expression evaluation result</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">never</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/contract/argument.ts#L23">src/contract/argument.ts:23</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Tests expression resolves to <code>true</code>.
+									If it resolves to <code>false</code>, then throws <a href="classes/invalidargumentexception.html">InvalidArgumentException</a>.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p>{InvalidArgumentException} if expression resolves to <code>false</code></p>
+									</dd>
+									<dt>since</dt>
+									<dd><p>1.1.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>expression: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Expression evaluation result</p>
+									</div>
+								</li>
+								<li>
+									<h5>message: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Message</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">never</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/contract/argument.ts#L34">src/contract/argument.ts:34</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Tests expression resolves to <code>true</code>.
+									If it resolves to <code>false</code>, then throws <a href="classes/invalidargumentexception.html">InvalidArgumentException</a>.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>throws</dt>
+									<dd><p>{InvalidArgumentException} if expression resolves to <code>false</code></p>
+									</dd>
+									<dt>since</dt>
+									<dd><p>1.1.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>expression: <span class="tsd-signature-type">boolean</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Expression evaluation result</p>
+									</div>
+								</li>
+								<li>
+									<h5>message: <a href="globals.html#supplyfunction" class="tsd-signature-type">SupplyFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Message supplier</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">never</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-has-type-parameter tsd-is-external">
 					<a name="identity" class="tsd-anchor"></a>
 					<h3>identity</h3>
@@ -610,7 +860,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/identity.ts#L1">src/function/identity.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/identity.ts#L1">src/function/identity.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -639,7 +889,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/isEven.ts#L1">src/function/isEven.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/isEven.ts#L1">src/function/isEven.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -662,7 +912,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/isFalsy.ts#L1">src/function/isFalsy.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/isFalsy.ts#L1">src/function/isFalsy.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -685,7 +935,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/isOdd.ts#L1">src/function/isOdd.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/isOdd.ts#L1">src/function/isOdd.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -708,7 +958,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/noop.ts#L1">src/function/noop.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/noop.ts#L1">src/function/noop.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -725,7 +975,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/sleep.ts#L1">src/function/sleep.ts:1</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/sleep.ts#L1">src/function/sleep.ts:1</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -748,7 +998,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/a9b8bd2/packages/core/src/function/times.ts#L3">src/function/times.ts:3</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/times.ts#L3">src/function/times.ts:3</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -779,6 +1029,35 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-is-external">
+					<a name="typeof" class="tsd-anchor"></a>
+					<h3>type<wbr>Of</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon">type<wbr>Of<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, required<span class="tsd-signature-symbol">: </span><a href="globals.html#typeofresult" class="tsd-signature-type">TypeOfResult</a>, <span class="tsd-signature-symbol">...</span>optional<span class="tsd-signature-symbol">: </span><a href="globals.html#typeofresult" class="tsd-signature-type">TypeOfResult</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/bab1b72/packages/core/src/function/typeOf.ts#L3">src/function/typeOf.ts:3</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>required: <a href="globals.html#typeofresult" class="tsd-signature-type">TypeOfResult</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>optional: <a href="globals.html#typeofresult" class="tsd-signature-type">TypeOfResult</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -820,9 +1099,6 @@
 					</li>
 					<li class=" tsd-kind-class tsd-is-external">
 						<a href="classes/booleanparser.html" class="tsd-kind-icon">Boolean<wbr>Parser</a>
-					</li>
-					<li class=" tsd-kind-class tsd-is-external">
-						<a href="classes/castexception.html" class="tsd-kind-icon">Cast<wbr>Exception</a>
 					</li>
 					<li class=" tsd-kind-class tsd-is-external">
 						<a href="classes/chainedequalitycomparator.html" class="tsd-kind-icon">Chained<wbr>Equality<wbr>Comparator</a>
@@ -969,9 +1245,6 @@
 						<a href="interfaces/builder.html" class="tsd-kind-icon">Builder</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter tsd-is-external">
-						<a href="interfaces/castsupport.html" class="tsd-kind-icon">Cast<wbr>Support</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-has-type-parameter tsd-is-external">
 						<a href="interfaces/cloneable.html" class="tsd-kind-icon">Cloneable</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-has-type-parameter tsd-is-external">
@@ -1085,6 +1358,9 @@
 					<li class=" tsd-kind-type-alias tsd-has-type-parameter tsd-is-external">
 						<a href="globals.html#type" class="tsd-kind-icon">Type</a>
 					</li>
+					<li class=" tsd-kind-type-alias tsd-is-external">
+						<a href="globals.html#typeofresult" class="tsd-kind-icon">Type<wbr>OfResult</a>
+					</li>
 					<li class=" tsd-kind-variable tsd-is-external">
 						<a href="globals.html#comma" class="tsd-kind-icon">COMMA</a>
 					</li>
@@ -1109,6 +1385,9 @@
 					<li class=" tsd-kind-variable tsd-is-external">
 						<a href="globals.html#tab" class="tsd-kind-icon">TAB</a>
 					</li>
+					<li class=" tsd-kind-function tsd-is-external">
+						<a href="globals.html#argument" class="tsd-kind-icon">argument</a>
+					</li>
 					<li class=" tsd-kind-function tsd-has-type-parameter tsd-is-external">
 						<a href="globals.html#identity" class="tsd-kind-icon">identity</a>
 					</li>
@@ -1130,6 +1409,9 @@
 					<li class=" tsd-kind-function tsd-is-external">
 						<a href="globals.html#times" class="tsd-kind-icon">times</a>
 					</li>
+					<li class=" tsd-kind-function tsd-is-external">
+						<a href="globals.html#typeof" class="tsd-kind-icon">type<wbr>Of</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
@@ -1147,6 +1429,7 @@
 				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
 				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
@@ -1195,7 +1478,7 @@
 	</div>
 </footer>
 <div class="container tsd-generator">
-	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
 </div>
 <div class="overlay"></div>
 <script src="assets/js/main.js"></script>
