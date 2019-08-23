@@ -197,13 +197,13 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Array<wbr>Set<span class="tsd-signature-symbol">(</span>items<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">?: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="arrayset.html" class="tsd-signature-type">ArraySet</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Array<wbr>Set<span class="tsd-signature-symbol">(</span>items<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">?: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="arrayset.html" class="tsd-signature-type">ArraySet</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L26">src/collections/set/mutable/ArraySet.ts:26</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L26">src/collections/set/mutable/ArraySet.ts:26</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -212,7 +212,7 @@
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> items: <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;ReferenceEqualityComparator.get()</span></h5>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> comparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;StrictEquals</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="arrayset.html" class="tsd-signature-type">ArraySet</a></h4>
@@ -226,16 +226,16 @@
 					<a name="comparator" class="tsd-anchor"></a>
 					<h3>comparator</h3>
 					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> comparator<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> comparator<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L24">src/collections/set/mutable/ArraySet.ts:24</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L24">src/collections/set/mutable/ArraySet.ts:24</a></li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -250,7 +250,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#isempty">isEmpty</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L19">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:19</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L19">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:19</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -268,7 +268,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#length">length</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L20">src/collections/set/mutable/ArraySet.ts:20</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L20">src/collections/set/mutable/ArraySet.ts:20</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -290,7 +290,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#___iterator">__@iterator</a></p>
 								<p>Overrides <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#___iterator">__@iterator</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L223">src/collections/set/mutable/ArraySet.ts:223</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L223">src/collections/set/mutable/ArraySet.ts:223</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -308,7 +308,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#add">add</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L37">src/collections/set/mutable/ArraySet.ts:37</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L37">src/collections/set/mutable/ArraySet.ts:37</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -332,7 +332,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#addall">addAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L41">src/collections/set/mutable/ArraySet.ts:41</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L41">src/collections/set/mutable/ArraySet.ts:41</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -357,7 +357,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#aggregate">aggregate</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#aggregate">aggregate</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L25">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:25</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L25">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:25</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -391,7 +391,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#all">all</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#all">all</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L29">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:29</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L29">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:29</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -416,7 +416,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#any">any</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#any">any</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L33">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:33</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L33">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:33</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -441,7 +441,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#average">average</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#average">average</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L37">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:37</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L37">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:37</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -466,7 +466,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#chunk">chunk</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#chunk">chunk</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L41">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:41</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L41">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:41</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -490,7 +490,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#clear">clear</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L51">src/collections/set/mutable/ArraySet.ts:51</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L51">src/collections/set/mutable/ArraySet.ts:51</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -508,7 +508,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/cloneable.html">Cloneable</a>.<a href="../interfaces/cloneable.html#clone">clone</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L55">src/collections/set/mutable/ArraySet.ts:55</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L55">src/collections/set/mutable/ArraySet.ts:55</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="arrayset.html" class="tsd-signature-type">ArraySet</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -527,7 +527,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#concat">concat</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#concat">concat</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L45">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:45</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L45">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:45</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -548,7 +548,7 @@
 					<h3>contains</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">contains<span class="tsd-signature-symbol">(</span>otherItem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-						<li class="tsd-signature tsd-kind-icon">contains<span class="tsd-signature-symbol">(</span>otherItem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">contains<span class="tsd-signature-symbol">(</span>otherItem<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -556,7 +556,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#contains">contains</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#contains">contains</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L49">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:49</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L49">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:49</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -572,7 +572,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#contains">contains</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#contains">contains</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L51">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:51</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L51">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:51</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -581,7 +581,7 @@
 									<h5>otherItem: <span class="tsd-signature-type">T</span></h5>
 								</li>
 								<li>
-									<h5>comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>comparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -593,7 +593,7 @@
 					<h3>contains<wbr>All</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">contains<wbr>All<span class="tsd-signature-symbol">(</span>items<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
-						<li class="tsd-signature tsd-kind-icon">contains<wbr>All<span class="tsd-signature-symbol">(</span>items<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">contains<wbr>All<span class="tsd-signature-symbol">(</span>items<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -601,7 +601,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#containsall">containsAll</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#containsall">containsAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L57">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:57</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L57">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:57</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -617,7 +617,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#containsall">containsAll</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#containsall">containsAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L59">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:59</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L59">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:59</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -626,7 +626,7 @@
 									<h5>items: <a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>comparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -645,7 +645,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#count">count</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#count">count</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L65">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:65</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L65">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:65</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -663,7 +663,7 @@
 					<h3>distinct</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">distinct<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">distinct<span class="tsd-signature-symbol">(</span>comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">distinct<span class="tsd-signature-symbol">(</span>comparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -671,7 +671,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#distinct">distinct</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#distinct">distinct</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L69">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:69</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L69">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:69</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -681,13 +681,13 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#distinct">distinct</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#distinct">distinct</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L71">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:71</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L71">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:71</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>comparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -706,7 +706,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#entries">entries</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#entries">entries</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L77">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:77</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L77">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:77</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#keyvaluepair" class="tsd-signature-type">KeyValuePair</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -724,7 +724,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#equals">equals</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L59">src/collections/set/mutable/ArraySet.ts:59</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L59">src/collections/set/mutable/ArraySet.ts:59</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -742,7 +742,7 @@
 					<h3>except</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">except<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">except<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">except<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -750,7 +750,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#except">except</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#except">except</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L81">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:81</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L81">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:81</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -766,7 +766,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#except">except</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#except">except</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L83">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:83</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L83">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:83</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -775,7 +775,7 @@
 									<h5>otherList: <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>comparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -796,7 +796,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#findall">findAll</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#findall">findAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L89">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:89</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L89">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:89</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -812,7 +812,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#findall">findAll</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#findall">findAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L91">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:91</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L91">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:91</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -831,7 +831,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#findall">findAll</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#findall">findAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L93">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:93</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L93">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:93</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -863,7 +863,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#first">first</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#first">first</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L99">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:99</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L99">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:99</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -882,7 +882,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#first">first</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#first">first</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L101">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:101</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L101">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:101</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -910,7 +910,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#firstordefault">firstOrDefault</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#firstordefault">firstOrDefault</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L111">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:111</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L111">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:111</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -937,7 +937,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreach">forEach</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L115">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:115</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L115">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:115</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -953,7 +953,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreach">forEach</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L117">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:117</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L117">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:117</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -972,7 +972,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreach">forEach</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#foreach">forEach</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L119">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:119</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L119">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:119</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1005,7 +1005,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreachback">forEachBack</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L125">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:125</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L125">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:125</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1021,7 +1021,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreachback">forEachBack</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L127">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:127</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L127">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:127</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1040,7 +1040,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#foreachback">forEachBack</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#foreachback">forEachBack</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L129">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:129</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L129">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:129</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1064,7 +1064,7 @@
 					<h3>group<wbr>By</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">group<wbr>By&lt;TKey&gt;<span class="tsd-signature-symbol">(</span>keySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlymultivaluemap.html" class="tsd-signature-type">ReadOnlyMultiValueMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">group<wbr>By&lt;TKey&gt;<span class="tsd-signature-symbol">(</span>keySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, keyComparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlymultivaluemap.html" class="tsd-signature-type">ReadOnlyMultiValueMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">group<wbr>By&lt;TKey&gt;<span class="tsd-signature-symbol">(</span>keySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, keyComparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlymultivaluemap.html" class="tsd-signature-type">ReadOnlyMultiValueMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1072,7 +1072,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#groupby">groupBy</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#groupby">groupBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L139">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:139</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L139">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:139</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1094,7 +1094,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#groupby">groupBy</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#groupby">groupBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L141">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:141</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L141">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:141</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1109,7 +1109,7 @@
 									<h5>keySelector: <a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>keyComparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>keyComparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlymultivaluemap.html" class="tsd-signature-type">ReadOnlyMultiValueMap</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1121,7 +1121,7 @@
 					<h3>intersect</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">intersect<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">intersect<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">intersect<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1129,7 +1129,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#intersect">intersect</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#intersect">intersect</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L150">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:150</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L150">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:150</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1145,7 +1145,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#intersect">intersect</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#intersect">intersect</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L152">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:152</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L152">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:152</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1154,7 +1154,7 @@
 									<h5>otherList: <a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>comparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1172,7 +1172,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#intersectwith">intersectWith</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L66">src/collections/set/mutable/ArraySet.ts:66</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L66">src/collections/set/mutable/ArraySet.ts:66</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1201,7 +1201,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#ispropersubsetof">isProperSubsetOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L78">src/collections/set/mutable/ArraySet.ts:78</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L78">src/collections/set/mutable/ArraySet.ts:78</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1225,7 +1225,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#ispropersupersetof">isProperSupersetOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L86">src/collections/set/mutable/ArraySet.ts:86</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L86">src/collections/set/mutable/ArraySet.ts:86</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1249,7 +1249,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#issubsetof">isSubsetOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L94">src/collections/set/mutable/ArraySet.ts:94</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L94">src/collections/set/mutable/ArraySet.ts:94</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1273,7 +1273,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#issupersetof">isSupersetOf</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L118">src/collections/set/mutable/ArraySet.ts:118</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L118">src/collections/set/mutable/ArraySet.ts:118</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1291,7 +1291,7 @@
 					<h3>join</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">join&lt;TOuter, TKey, TResult&gt;<span class="tsd-signature-symbol">(</span>outerList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">&gt;</span>, outerKeySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, innerKeySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, resultSelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#combinefunction" class="tsd-signature-type">CombineFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">join&lt;TOuter, TKey, TResult&gt;<span class="tsd-signature-symbol">(</span>outerList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">&gt;</span>, outerKeySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, innerKeySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, resultSelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#combinefunction" class="tsd-signature-type">CombineFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span>, keyComparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">join&lt;TOuter, TKey, TResult&gt;<span class="tsd-signature-symbol">(</span>outerList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">&gt;</span>, outerKeySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, innerKeySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#iteratorfunction" class="tsd-signature-type">IteratorFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, resultSelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#combinefunction" class="tsd-signature-type">CombineFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span>, keyComparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1299,7 +1299,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#join">join</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#join">join</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L158">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:158</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L158">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:158</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1336,7 +1336,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#join">join</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#join">join</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L165">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:165</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L165">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:165</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1366,7 +1366,7 @@
 									<h5>resultSelector: <a href="../globals.html#combinefunction" class="tsd-signature-type">CombineFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TOuter</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>keyComparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>keyComparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TResult</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1386,7 +1386,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#last">last</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#last">last</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L183">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:183</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L183">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:183</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1405,7 +1405,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#last">last</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#last">last</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L185">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:185</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L185">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:185</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1433,7 +1433,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#lastordefault">lastOrDefault</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#lastordefault">lastOrDefault</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L195">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:195</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L195">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:195</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1458,7 +1458,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#map">map</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#map">map</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L199">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:199</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L199">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:199</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1489,7 +1489,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#max">max</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#max">max</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L203">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:203</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L203">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:203</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1514,7 +1514,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#min">min</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#min">min</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L207">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:207</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L207">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:207</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1531,8 +1531,8 @@
 					<a name="orderby" class="tsd-anchor"></a>
 					<h3>order<wbr>By</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">order<wbr>By&lt;TKey&gt;<span class="tsd-signature-symbol">(</span>keySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#projectfunction" class="tsd-signature-type">ProjectFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/comparator.html" class="tsd-signature-type">Comparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">order<wbr>By&lt;TKey&gt;<span class="tsd-signature-symbol">(</span>keySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#projectfunction" class="tsd-signature-type">ProjectFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/comparator.html" class="tsd-signature-type">Comparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, sortOrder<span class="tsd-signature-symbol">: </span><a href="../enums/sortorder.html" class="tsd-signature-type">SortOrder</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">order<wbr>By&lt;TKey&gt;<span class="tsd-signature-symbol">(</span>keySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#projectfunction" class="tsd-signature-type">ProjectFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#comparefunction" class="tsd-signature-type">CompareFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">order<wbr>By&lt;TKey&gt;<span class="tsd-signature-symbol">(</span>keySelector<span class="tsd-signature-symbol">: </span><a href="../globals.html#projectfunction" class="tsd-signature-type">ProjectFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#comparefunction" class="tsd-signature-type">CompareFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span>, sortOrder<span class="tsd-signature-symbol">: </span><a href="../enums/sortorder.html" class="tsd-signature-type">SortOrder</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1540,7 +1540,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#orderby">orderBy</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#orderby">orderBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L211">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:211</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L211">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:211</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1555,7 +1555,7 @@
 									<h5>keySelector: <a href="../globals.html#projectfunction" class="tsd-signature-type">ProjectFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>comparator: <a href="../interfaces/comparator.html" class="tsd-signature-type">Comparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>comparator: <a href="../globals.html#comparefunction" class="tsd-signature-type">CompareFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1565,7 +1565,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#orderby">orderBy</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#orderby">orderBy</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L213">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:213</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L213">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:213</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1580,7 +1580,7 @@
 									<h5>keySelector: <a href="../globals.html#projectfunction" class="tsd-signature-type">ProjectFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>comparator: <a href="../interfaces/comparator.html" class="tsd-signature-type">Comparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>comparator: <a href="../globals.html#comparefunction" class="tsd-signature-type">CompareFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TKey</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
 									<h5>sortOrder: <a href="../enums/sortorder.html" class="tsd-signature-type">SortOrder</a></h5>
@@ -1600,7 +1600,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L142">src/collections/set/mutable/ArraySet.ts:142</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L142">src/collections/set/mutable/ArraySet.ts:142</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1625,7 +1625,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#random">random</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#random">random</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L223">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:223</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L223">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:223</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span></h4>
@@ -1643,7 +1643,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#remove">remove</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L154">src/collections/set/mutable/ArraySet.ts:154</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L154">src/collections/set/mutable/ArraySet.ts:154</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1667,7 +1667,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#removeall">removeAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L158">src/collections/set/mutable/ArraySet.ts:158</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L158">src/collections/set/mutable/ArraySet.ts:158</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1690,7 +1690,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L162">src/collections/set/mutable/ArraySet.ts:162</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L162">src/collections/set/mutable/ArraySet.ts:162</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1732,7 +1732,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#retainall">retainAll</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L166">src/collections/set/mutable/ArraySet.ts:166</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L166">src/collections/set/mutable/ArraySet.ts:166</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1757,7 +1757,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#reverse">reverse</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#reverse">reverse</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L227">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:227</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L227">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:227</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1776,7 +1776,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#selectmany">selectMany</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#selectmany">selectMany</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L231">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:231</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L231">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:231</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1811,7 +1811,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L170">src/collections/set/mutable/ArraySet.ts:170</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L170">src/collections/set/mutable/ArraySet.ts:170</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1836,7 +1836,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#skip">skip</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#skip">skip</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L238">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:238</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L238">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:238</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1861,7 +1861,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#skipwhile">skipWhile</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#skipwhile">skipWhile</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L242">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:242</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L242">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:242</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1887,7 +1887,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#slice">slice</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#slice">slice</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L246">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:246</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L246">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:246</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1903,7 +1903,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#slice">slice</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#slice">slice</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L248">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:248</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L248">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:248</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1931,7 +1931,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#sum">sum</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#sum">sum</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L254">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:254</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L254">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:254</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1955,7 +1955,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#symmetricexceptwith">symmetricExceptWith</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L200">src/collections/set/mutable/ArraySet.ts:200</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L200">src/collections/set/mutable/ArraySet.ts:200</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1980,7 +1980,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#take">take</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#take">take</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L258">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:258</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L258">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:258</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2005,7 +2005,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#takewhile">takeWhile</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#takewhile">takeWhile</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L262">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:262</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L262">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:262</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2030,7 +2030,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#toarray">toArray</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#toarray">toArray</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L266">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:266</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L266">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:266</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -2049,7 +2049,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#tojson">toJSON</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#tojson">toJSON</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L270">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:270</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L270">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:270</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
@@ -2061,7 +2061,7 @@
 					<h3>union</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 						<li class="tsd-signature tsd-kind-icon">union<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
-						<li class="tsd-signature tsd-kind-icon">union<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">union<span class="tsd-signature-symbol">(</span>otherList<span class="tsd-signature-symbol">: </span><a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>, comparator<span class="tsd-signature-symbol">: </span><a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -2069,7 +2069,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#union">union</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#union">union</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L274">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:274</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L274">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:274</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2085,7 +2085,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#union">union</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#union">union</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L276">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:276</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L276">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:276</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2094,7 +2094,7 @@
 									<h5>otherList: <a href="../interfaces/sequence.html" class="tsd-signature-type">Sequence</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 								<li>
-									<h5>comparator: <a href="../interfaces/equalitycomparator.html" class="tsd-signature-type">EqualityComparator</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<h5>comparator: <a href="../globals.html#equalsfunction" class="tsd-signature-type">EqualsFunction</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlycollection.html" class="tsd-signature-type">ReadOnlyCollection</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -2112,7 +2112,7 @@
 							<aside class="tsd-sources">
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#unionwith">unionWith</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/set/mutable/ArraySet.ts#L218">src/collections/set/mutable/ArraySet.ts:218</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/set/mutable/ArraySet.ts#L218">src/collections/set/mutable/ArraySet.ts:218</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2137,7 +2137,7 @@
 								<p>Implementation of <a href="../interfaces/set.html">Set</a>.<a href="../interfaces/set.html#zip">zip</a></p>
 								<p>Inherited from <a href="readonlycollectionbase.html">ReadOnlyCollectionBase</a>.<a href="readonlycollectionbase.html#zip">zip</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/310f2d8/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L282">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:282</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/3df1e8c/packages/core/src/collections/collection/readonly/ReadOnlyCollectionBase.ts#L282">src/collections/collection/readonly/ReadOnlyCollectionBase.ts:282</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
