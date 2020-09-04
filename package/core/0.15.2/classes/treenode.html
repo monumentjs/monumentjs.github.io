@@ -64,6 +64,20 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<dl class="tsd-comment-tags">
+						<dt>author</dt>
+						<dd><p>Alex Chugaev</p>
+						</dd>
+						<dt>since</dt>
+						<dd><p>0.0.1</p>
+						</dd>
+						<dt>mutable</dt>
+						<dd></dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-type-parameters">
 				<h3>Type parameters</h3>
 				<ul class="tsd-type-parameters">
@@ -135,13 +149,13 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Tree<wbr>Node<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><a href="" class="tsd-signature-type">T</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenode.html" class="tsd-signature-type">TreeNode</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Tree<wbr>Node<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">?: </span><a href="" class="tsd-signature-type">T</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenode.html" class="tsd-signature-type">TreeNode</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L90">src/collections/tree/TreeNode.ts:90</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L90">src/collections/tree/TreeNode.ts:90</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -163,7 +177,7 @@
 					<div class="tsd-signature tsd-kind-icon">data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L14">src/collections/tree/TreeNode.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L14">src/collections/tree/TreeNode.ts:14</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -173,112 +187,204 @@
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="childnodes" class="tsd-anchor"></a>
 					<h3>child<wbr>Nodes</h3>
-					<div class="tsd-signature tsd-kind-icon">child<wbr>Nodes<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L16">src/collections/tree/TreeNode.ts:16</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> childNodes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L16">src/collections/tree/TreeNode.ts:16</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/readonlylist.html" class="tsd-signature-type">ReadOnlyList</a><span class="tsd-signature-symbol">&lt;</span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="childnodescount" class="tsd-anchor"></a>
 					<h3>child<wbr>Nodes<wbr>Count</h3>
-					<div class="tsd-signature tsd-kind-icon">child<wbr>Nodes<wbr>Count<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L20">src/collections/tree/TreeNode.ts:20</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> childNodesCount<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L20">src/collections/tree/TreeNode.ts:20</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="depth" class="tsd-anchor"></a>
 					<h3>depth</h3>
-					<div class="tsd-signature tsd-kind-icon">depth<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L24">src/collections/tree/TreeNode.ts:24</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> depth<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L24">src/collections/tree/TreeNode.ts:24</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="firstchild" class="tsd-anchor"></a>
 					<h3>first<wbr>Child</h3>
-					<div class="tsd-signature tsd-kind-icon">first<wbr>Child<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L36">src/collections/tree/TreeNode.ts:36</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> firstChild<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L36">src/collections/tree/TreeNode.ts:36</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="haschildnodes" class="tsd-anchor"></a>
 					<h3>has<wbr>Child<wbr>Nodes</h3>
-					<div class="tsd-signature tsd-kind-icon">has<wbr>Child<wbr>Nodes<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L44">src/collections/tree/TreeNode.ts:44</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> hasChildNodes<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L44">src/collections/tree/TreeNode.ts:44</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="isdetached" class="tsd-anchor"></a>
 					<h3>is<wbr>Detached</h3>
-					<div class="tsd-signature tsd-kind-icon">is<wbr>Detached<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L48">src/collections/tree/TreeNode.ts:48</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> isDetached<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L48">src/collections/tree/TreeNode.ts:48</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="lastchild" class="tsd-anchor"></a>
 					<h3>last<wbr>Child</h3>
-					<div class="tsd-signature tsd-kind-icon">last<wbr>Child<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L52">src/collections/tree/TreeNode.ts:52</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> lastChild<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L52">src/collections/tree/TreeNode.ts:52</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="nextsibling" class="tsd-anchor"></a>
 					<h3>next<wbr>Sibling</h3>
-					<div class="tsd-signature tsd-kind-icon">next<wbr>Sibling<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L60">src/collections/tree/TreeNode.ts:60</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> nextSibling<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L60">src/collections/tree/TreeNode.ts:60</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="parentnode" class="tsd-anchor"></a>
 					<h3>parent<wbr>Node</h3>
-					<div class="tsd-signature tsd-kind-icon">parent<wbr>Node<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L72">src/collections/tree/TreeNode.ts:72</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> parentNode<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L72">src/collections/tree/TreeNode.ts:72</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="path" class="tsd-anchor"></a>
 					<h3>path</h3>
-					<div class="tsd-signature tsd-kind-icon">path<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L76">src/collections/tree/TreeNode.ts:76</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> path<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L76">src/collections/tree/TreeNode.ts:76</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Iterable</span><span class="tsd-signature-symbol">&lt;</span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="previoussibling" class="tsd-anchor"></a>
 					<h3>previous<wbr>Sibling</h3>
-					<div class="tsd-signature tsd-kind-icon">previous<wbr>Sibling<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L80">src/collections/tree/TreeNode.ts:80</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> previousSibling<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L80">src/collections/tree/TreeNode.ts:80</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <a href="treenode.html" class="tsd-signature-type">TreeNode</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
@@ -293,7 +399,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L96">src/collections/tree/TreeNode.ts:96</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L96">src/collections/tree/TreeNode.ts:96</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -316,7 +422,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L107">src/collections/tree/TreeNode.ts:107</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L107">src/collections/tree/TreeNode.ts:107</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -339,7 +445,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L119">src/collections/tree/TreeNode.ts:119</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L119">src/collections/tree/TreeNode.ts:119</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -356,7 +462,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L126">src/collections/tree/TreeNode.ts:126</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L126">src/collections/tree/TreeNode.ts:126</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -379,7 +485,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L130">src/collections/tree/TreeNode.ts:130</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L130">src/collections/tree/TreeNode.ts:130</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -405,7 +511,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L143">src/collections/tree/TreeNode.ts:143</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L143">src/collections/tree/TreeNode.ts:143</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -431,7 +537,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L156">src/collections/tree/TreeNode.ts:156</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L156">src/collections/tree/TreeNode.ts:156</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -454,7 +560,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L166">src/collections/tree/TreeNode.ts:166</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L166">src/collections/tree/TreeNode.ts:166</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -477,7 +583,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/core/src/collections/tree/TreeNode.ts#L178">src/collections/tree/TreeNode.ts:178</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/core/src/collections/tree/TreeNode.ts#L178">src/collections/tree/TreeNode.ts:178</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>

@@ -64,6 +64,27 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Represents filter which filters log events by tag.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>see</dt>
+						<dd><p>Filter</p>
+						</dd>
+						<dt>see</dt>
+						<dd><p>Transport.filters</p>
+						</dd>
+						<dt>since</dt>
+						<dd><p>0.14.0</p>
+						</dd>
+						<dt>author</dt>
+						<dd><p>Alex Chugaev</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -124,19 +145,47 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="matchingfilter.html">MatchingFilter</a>.<a href="matchingfilter.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/TagFilter.ts#L20">src/filter/TagFilter.ts:20</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/TagFilter.ts#L20">src/filter/TagFilter.ts:20</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Initializes new instance.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>since</dt>
+									<dd><p>0.14.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>tag: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Tag that event must contain</p>
+										</div>
+									</div>
 								</li>
 								<li>
 									<h5>onMatch: <a href="../enums/filterdecision.html" class="tsd-signature-type">FilterDecision</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Filter decision made on match</p>
+										</div>
+									</div>
 								</li>
 								<li>
 									<h5>onMismatch: <a href="../enums/filterdecision.html" class="tsd-signature-type">FilterDecision</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Filter decision made on mismatch</p>
+										</div>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="tagfilter.html" class="tsd-signature-type">TagFilter</a></h4>
@@ -153,9 +202,25 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="matchingfilter.html">MatchingFilter</a>.<a href="matchingfilter.html#onmatch">onMatch</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/MatchingFilter.ts#L17">src/filter/MatchingFilter.ts:17</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/MatchingFilter.ts#L17">src/filter/MatchingFilter.ts:17</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets value which defines how to interpret case when filter matched log event.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p>Filter.decide</p>
+							</dd>
+							<dt>since</dt>
+							<dd><p>0.14.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited tsd-is-external">
 					<a name="onmismatch" class="tsd-anchor"></a>
@@ -164,9 +229,25 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="matchingfilter.html">MatchingFilter</a>.<a href="matchingfilter.html#onmismatch">onMismatch</a></p>
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/MatchingFilter.ts#L25">src/filter/MatchingFilter.ts:25</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/MatchingFilter.ts#L25">src/filter/MatchingFilter.ts:25</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets value which defines how to interpret case when filter mismatched log event.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p>Filter.decide</p>
+							</dd>
+							<dt>since</dt>
+							<dd><p>0.14.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="tag" class="tsd-anchor"></a>
@@ -174,9 +255,25 @@
 					<div class="tsd-signature tsd-kind-icon">tag<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/TagFilter.ts#L20">src/filter/TagFilter.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/TagFilter.ts#L20">src/filter/TagFilter.ts:20</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Tag to check in log event.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p>LogEvent.tags</p>
+							</dd>
+							<dt>since</dt>
+							<dd><p>0.14.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
@@ -193,13 +290,35 @@
 								<p>Implementation of <a href="../interfaces/filter.html">Filter</a>.<a href="../interfaces/filter.html#decide">decide</a></p>
 								<p>Inherited from <a href="matchingfilter.html">MatchingFilter</a>.<a href="matchingfilter.html#decide">decide</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/MatchingFilter.ts#L48">src/filter/MatchingFilter.ts:48</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/MatchingFilter.ts#L48">src/filter/MatchingFilter.ts:48</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Makes decision on how to process log event.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>see</dt>
+									<dd><p>Filter.onMatch</p>
+									</dd>
+									<dt>see</dt>
+									<dd><p>Filter.onMismatch</p>
+									</dd>
+									<dt>since</dt>
+									<dd><p>0.14.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>event: <a href="logevent.html" class="tsd-signature-type">LogEvent</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Log event</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="../enums/filterdecision.html" class="tsd-signature-type">FilterDecision</a></h4>
@@ -218,9 +337,22 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="matchingfilter.html">MatchingFilter</a>.<a href="matchingfilter.html#match">match</a></p>
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/TagFilter.ts#L40">src/filter/TagFilter.ts:40</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/TagFilter.ts#L40">src/filter/TagFilter.ts:40</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks whether log event matches filter.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>since</dt>
+									<dd><p>0.14.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>

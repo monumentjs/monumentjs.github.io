@@ -64,6 +64,36 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Represents result of <a href="../interfaces/filter.html">Filter</a> decision.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>see</dt>
+						<dd><p>Filter.onMatch</p>
+						</dd>
+						<dt>see</dt>
+						<dd><p>Filter.onMismatch</p>
+						</dd>
+						<dt>see</dt>
+						<dd><p>MatchingFilter.decide</p>
+						</dd>
+						<dt>see</dt>
+						<dd><p>Transport</p>
+						</dd>
+						<dt>see</dt>
+						<dd><p>TransportBase.next</p>
+						</dd>
+						<dt>since</dt>
+						<dd><p>0.14.0</p>
+						</dd>
+						<dt>author</dt>
+						<dd><p>Alex Chugaev</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
@@ -87,9 +117,29 @@
 					<div class="tsd-signature tsd-kind-icon">ALLOW<span class="tsd-signature-symbol">:</span> </div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/FilterDecision.ts#L30">src/filter/FilterDecision.ts:30</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/FilterDecision.ts#L30">src/filter/FilterDecision.ts:30</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Filter have made exact decision to allow log event.
+							Following filters decision not required.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p>MatchingFilter.decide</p>
+							</dd>
+							<dt>see</dt>
+							<dd><p>TransportBase.next</p>
+							</dd>
+							<dt>since</dt>
+							<dd><p>0.14.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum tsd-is-external">
 					<a name="deny" class="tsd-anchor"></a>
@@ -97,9 +147,29 @@
 					<div class="tsd-signature tsd-kind-icon">DENY<span class="tsd-signature-symbol">:</span> </div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/FilterDecision.ts#L40">src/filter/FilterDecision.ts:40</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/FilterDecision.ts#L40">src/filter/FilterDecision.ts:40</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Filter have made exact decision to deny log event.
+							Following filters decision not required.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p>MatchingFilter.decide</p>
+							</dd>
+							<dt>see</dt>
+							<dd><p>TransportBase.next</p>
+							</dd>
+							<dt>since</dt>
+							<dd><p>0.14.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum tsd-is-external">
 					<a name="neutral" class="tsd-anchor"></a>
@@ -107,9 +177,29 @@
 					<div class="tsd-signature tsd-kind-icon">NEUTRAL<span class="tsd-signature-symbol">:</span> </div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/filter/FilterDecision.ts#L20">src/filter/FilterDecision.ts:20</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/filter/FilterDecision.ts#L20">src/filter/FilterDecision.ts:20</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Filter cannot make exact decision whether log event should be allowed or rejected.
+							Following filters decision required.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p>MatchingFilter.decide</p>
+							</dd>
+							<dt>see</dt>
+							<dd><p>TransportBase.next</p>
+							</dd>
+							<dt>since</dt>
+							<dd><p>0.14.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 			</section>
 		</div>

@@ -112,9 +112,22 @@
 					<div class="tsd-signature tsd-kind-icon">Effect<wbr>Result<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><a href="interfaces/action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol"> | </span><a href="interfaces/action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol"> | </span><a href="interfaces/action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol"> | </span><a href="interfaces/action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="interfaces/action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/EffectResult.ts#L9">src/EffectResult.ts:9</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/EffectResult.ts#L9">src/EffectResult.ts:9</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Represents effect result.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>0.11.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-type-alias tsd-is-external">
 					<a name="effectsource" class="tsd-anchor"></a>
@@ -122,9 +135,22 @@
 					<div class="tsd-signature tsd-kind-icon">Effect<wbr>Source<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><a href="globals.html#effectresult" class="tsd-signature-type">EffectResult</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/EffectSource.ts#L9">src/EffectSource.ts:9</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/EffectSource.ts#L9">src/EffectSource.ts:9</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Represents stream of effect results.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>0.11.0</p>
+							</dd>
+							<dt>author</dt>
+							<dd><p>Alex Chugaev</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
@@ -139,13 +165,32 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/Catch.ts#L11">src/Catch.ts:11</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/Catch.ts#L11">src/Catch.ts:11</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Marks method of state class as action reaction which mutates state.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>see</dt>
+									<dd><p>Action.type</p>
+									</dd>
+									<dt>since</dt>
+									<dd><p>0.11.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>errorType: <span class="tsd-signature-type">Type</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">Error</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Type of error</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">MethodDecorator</span></h4>
@@ -162,13 +207,38 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/Effect.ts#L27">src/Effect.ts:27</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/Effect.ts#L27">src/Effect.ts:27</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Marks property of effects class as effect.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>see</dt>
+									<dd><p>EffectDecoratorConfiguration</p>
+									</dd>
+									<dt>see</dt>
+									<dd><p>EffectMediator</p>
+									</dd>
+									<dt>see</dt>
+									<dd><p>EffectSource</p>
+									</dd>
+									<dt>since</dt>
+									<dd><p>0.11.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> configuration: <a href="interfaces/effectdecoratorconfiguration.html" class="tsd-signature-type">EffectDecoratorConfiguration</a><span class="tsd-signature-symbol"> =&nbsp;{dispatch: true}</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Decorator configuration</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">PropertyDecorator</span></h4>
@@ -185,13 +255,32 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/Reaction.ts#L10">src/Reaction.ts:10</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/Reaction.ts#L10">src/Reaction.ts:10</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Marks method of state class as action reaction which mutates state.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>see</dt>
+									<dd><p>Action.type</p>
+									</dd>
+									<dt>since</dt>
+									<dd><p>0.11.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>actionType: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Type of action</p>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">MethodDecorator</span></h4>

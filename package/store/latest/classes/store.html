@@ -64,6 +64,21 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Represents store of the state.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>since</dt>
+						<dd><p>0.11.0</p>
+						</dd>
+						<dt>author</dt>
+						<dd><p>Alex Chugaev</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-type-parameters">
 				<h3>Type parameters</h3>
 				<ul class="tsd-type-parameters">
@@ -127,16 +142,39 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/Store.ts#L32">src/Store.ts:32</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/Store.ts#L32">src/Store.ts:32</a></li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Initializes new instance.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>since</dt>
+									<dd><p>0.11.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>actions: <a href="actions.html" class="tsd-signature-type">Actions</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Stream of actions</p>
+										</div>
+									</div>
 								</li>
 								<li>
 									<h5>state: <span class="tsd-signature-type">TState</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>State implementation</p>
+										</div>
+									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="store.html" class="tsd-signature-type">Store</a></h4>
@@ -149,22 +187,62 @@
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="snapshot" class="tsd-anchor"></a>
 					<h3>snapshot</h3>
-					<div class="tsd-signature tsd-kind-icon">snapshot<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/Store.ts#L21">src/Store.ts:21</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> snapshot<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TSnapshot</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/Store.ts#L21">src/Store.ts:21</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets instant state snapshot.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>since</dt>
+									<dd><p>0.11.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">TSnapshot</span></h4>
+						</li>
+					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
 					<a name="stream" class="tsd-anchor"></a>
 					<h3>stream</h3>
-					<div class="tsd-signature tsd-kind-icon">stream<span class="tsd-signature-symbol">:</span> </div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/Store.ts#L30">src/Store.ts:30</a></li>
-						</ul>
-					</aside>
+					<ul class="tsd-signatures tsd-kind-get-signature tsd-parent-kind-class tsd-is-external">
+						<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">get</span> stream<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TSnapshot</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/Store.ts#L30">src/Store.ts:30</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets stream of state snapshots.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>since</dt>
+									<dd><p>0.11.0</p>
+									</dd>
+									<dt>author</dt>
+									<dd><p>Alex Chugaev</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Observable</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TSnapshot</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group tsd-is-external">
@@ -179,7 +257,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/store/src/Store.ts#L54">src/Store.ts:54</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/store/src/Store.ts#L54">src/Store.ts:54</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
