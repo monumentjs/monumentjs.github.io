@@ -64,21 +64,6 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>Represents log event dispatched by logger usually to notify transports about log event.</p>
-					</div>
-					<dl class="tsd-comment-tags">
-						<dt>since</dt>
-						<dd><p>0.14.0</p>
-						</dd>
-						<dt>author</dt>
-						<dd><p>Alex Chugaev</p>
-						</dd>
-					</dl>
-				</div>
-			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -117,69 +102,31 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-external">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Log<wbr>Event<span class="tsd-signature-symbol">(</span>logger<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, level<span class="tsd-signature-symbol">: </span><a href="../enums/level.html" class="tsd-signature-type">Level</a>, message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, error<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">Error</span>, tags<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="logevent.html" class="tsd-signature-type">LogEvent</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Log<wbr>Event<span class="tsd-signature-symbol">(</span>logger<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, level<span class="tsd-signature-symbol">: </span><a href="../enums/level.html" class="tsd-signature-type">Level</a>, message<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Error</span>, tags<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="logevent.html" class="tsd-signature-type">LogEvent</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/core/LogEvent.ts#L57">src/core/LogEvent.ts:57</a></li>
+									<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/core/LogEvent.ts#L57">src/core/LogEvent.ts:57</a></li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Initializes new instance.</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>since</dt>
-									<dd><p>0.14.0</p>
-									</dd>
-									<dt>author</dt>
-									<dd><p>Alex Chugaev</p>
-									</dd>
-								</dl>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
 									<h5>logger: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>Logger name</p>
-										</div>
-									</div>
 								</li>
 								<li>
 									<h5>level: <a href="../enums/level.html" class="tsd-signature-type">Level</a></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>Log event level</p>
-										</div>
-									</div>
 								</li>
 								<li>
 									<h5>message: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>Log event message</p>
-										</div>
-									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagOptional">Optional</span> error: <span class="tsd-signature-type">Error</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>Log event error</p>
-										</div>
-									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> tags: <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<div class="lead">
-											<p>Log event tags</p>
-										</div>
-									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="logevent.html" class="tsd-signature-type">LogEvent</a></h4>
@@ -195,22 +142,9 @@
 					<div class="tsd-signature tsd-kind-icon">created<wbr>At<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol"> =&nbsp;new Date()</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/core/LogEvent.ts#L14">src/core/LogEvent.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/core/LogEvent.ts#L14">src/core/LogEvent.ts:14</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Gets log event creation timestamp.</p>
-						</div>
-						<dl class="tsd-comment-tags">
-							<dt>since</dt>
-							<dd><p>0.14.0</p>
-							</dd>
-							<dt>author</dt>
-							<dd><p>Alex Chugaev</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="error" class="tsd-anchor"></a>
@@ -218,25 +152,9 @@
 					<div class="tsd-signature tsd-kind-icon">error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Error</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/core/LogEvent.ts#L50">src/core/LogEvent.ts:50</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/core/LogEvent.ts#L50">src/core/LogEvent.ts:50</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Gets error reported with error log events.</p>
-						</div>
-						<dl class="tsd-comment-tags">
-							<dt>see</dt>
-							<dd><p>Logger.error</p>
-							</dd>
-							<dt>since</dt>
-							<dd><p>0.14.0</p>
-							</dd>
-							<dt>author</dt>
-							<dd><p>Alex Chugaev</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="level" class="tsd-anchor"></a>
@@ -244,40 +162,9 @@
 					<div class="tsd-signature tsd-kind-icon">level<span class="tsd-signature-symbol">:</span> <a href="../enums/level.html" class="tsd-signature-type">Level</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/core/LogEvent.ts#L35">src/core/LogEvent.ts:35</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/core/LogEvent.ts#L35">src/core/LogEvent.ts:35</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Gets level of log event.</p>
-						</div>
-						<dl class="tsd-comment-tags">
-							<dt>see</dt>
-							<dd><p>Level</p>
-							</dd>
-							<dt>see</dt>
-							<dd><p>Logger.trace</p>
-							</dd>
-							<dt>see</dt>
-							<dd><p>Logger.debug</p>
-							</dd>
-							<dt>see</dt>
-							<dd><p>Logger.info</p>
-							</dd>
-							<dt>see</dt>
-							<dd><p>Logger.warning</p>
-							</dd>
-							<dt>see</dt>
-							<dd><p>Logger.error</p>
-							</dd>
-							<dt>since</dt>
-							<dd><p>0.14.0</p>
-							</dd>
-							<dt>author</dt>
-							<dd><p>Alex Chugaev</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="logger" class="tsd-anchor"></a>
@@ -285,25 +172,9 @@
 					<div class="tsd-signature tsd-kind-icon">logger<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/core/LogEvent.ts#L22">src/core/LogEvent.ts:22</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/core/LogEvent.ts#L22">src/core/LogEvent.ts:22</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Gets logger name.</p>
-						</div>
-						<dl class="tsd-comment-tags">
-							<dt>see</dt>
-							<dd><p>Logger.name</p>
-							</dd>
-							<dt>since</dt>
-							<dd><p>0.14.0</p>
-							</dd>
-							<dt>author</dt>
-							<dd><p>Alex Chugaev</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="message" class="tsd-anchor"></a>
@@ -311,22 +182,9 @@
 					<div class="tsd-signature tsd-kind-icon">message<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/core/LogEvent.ts#L42">src/core/LogEvent.ts:42</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/core/LogEvent.ts#L42">src/core/LogEvent.ts:42</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Gets log event message.</p>
-						</div>
-						<dl class="tsd-comment-tags">
-							<dt>since</dt>
-							<dd><p>0.14.0</p>
-							</dd>
-							<dt>author</dt>
-							<dd><p>Alex Chugaev</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-external">
 					<a name="tags" class="tsd-anchor"></a>
@@ -334,22 +192,9 @@
 					<div class="tsd-signature tsd-kind-icon">tags<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/monumentjs/core/blob/60a99b1/packages/logger/src/core/LogEvent.ts#L57">src/core/LogEvent.ts:57</a></li>
+							<li>Defined in <a href="https://github.com/monumentjs/core/blob/7ac95df/packages/logger/src/core/LogEvent.ts#L57">src/core/LogEvent.ts:57</a></li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Gets tags of log event. Tags used to filter log events sending by transports.</p>
-						</div>
-						<dl class="tsd-comment-tags">
-							<dt>since</dt>
-							<dd><p>0.14.0</p>
-							</dd>
-							<dt>author</dt>
-							<dd><p>Alex Chugaev</p>
-							</dd>
-						</dl>
-					</div>
 				</section>
 			</section>
 		</div>
